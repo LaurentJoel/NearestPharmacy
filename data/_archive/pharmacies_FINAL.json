@@ -1,0 +1,5176 @@
+{
+  "created": "2025-12-11T17:04:31.730533",
+  "total": 555,
+  "pharmacies": [
+    {
+      "nom": "Pharmacie des Martyrs",
+      "lat": 5.4785929,
+      "lon": 10.415214,
+      "ville": "Bafoussam",
+      "telephone": "233 44 66 80",
+      "adresse": "Carrefour BIAO 699 92 57 69",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie du Centre",
+      "lat": 4.0475907,
+      "lon": 9.6941258,
+      "ville": "Dschang",
+      "telephone": "233 45 11 94",
+      "adresse": "699 98 98 86",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie Akwa-Nord",
+      "lat": 4.0733526,
+      "lon": 9.7168246,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmarcie de la cité des palmiers",
+      "lat": 4.0528334,
+      "lon": 9.7616632,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Samba",
+      "lat": 2.910287,
+      "lon": 11.1488866,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Bell",
+      "lat": 4.0358998,
+      "lon": 9.6941275,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.4920073,
+      "lon": 13.6783245,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Hôpital de District d'Okola",
+      "lat": 4.0266935,
+      "lon": 11.382813,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.3863872,
+      "lon": 13.5019631,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 5.9866642,
+      "lon": 10.4370021,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Faith pharmacy",
+      "lat": 5.9874847,
+      "lon": 10.4346599,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 5.9962855,
+      "lon": 10.4414882,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Joss",
+      "lat": 4.0421376,
+      "lon": 9.6870513,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Olezoa",
+      "lat": 3.846497,
+      "lon": 11.5148132,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Centre",
+      "lat": 3.8710132,
+      "lon": 11.5179547,
+      "ville": "Dschang",
+      "telephone": "233 45 11 94",
+      "adresse": "699 98 98 86",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie de Nkomo",
+      "lat": 3.8416617,
+      "lon": 11.550225,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Tsinga",
+      "lat": 3.8818777,
+      "lon": 11.5027686,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Mami Macta",
+      "lat": 3.8712872,
+      "lon": 11.5346161,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy de l'Université",
+      "lat": 3.8594758,
+      "lon": 11.5045728,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Moisson",
+      "lat": 3.8604354,
+      "lon": 11.5211667,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mvog-Atangana Mballa",
+      "lat": 3.8488518,
+      "lon": 11.5192943,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Aéroport",
+      "lat": 3.8253653,
+      "lon": 11.5167072,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Moto George",
+      "lat": 3.889256,
+      "lon": 11.5179934,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Isis",
+      "lat": 3.8642524,
+      "lon": 11.5483223,
+      "ville": "Yaounde",
+      "telephone": "222 23 35 78",
+      "adresse": "EMOMBO 2ème CARREFOUR",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie du Stade",
+      "lat": 3.8891163,
+      "lon": 11.5452392,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8528552,
+      "lon": 11.4989103,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du centre",
+      "lat": 9.3064553,
+      "lon": 13.3951274,
+      "ville": "Dschang",
+      "telephone": "233 45 11 94",
+      "adresse": "699 98 98 86",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie de Djamboutou",
+      "lat": 9.3042325,
+      "lon": 13.3967556,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Garoua",
+      "lat": 9.3072574,
+      "lon": 13.3964666,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Populaire",
+      "lat": 9.3168363,
+      "lon": 13.4043696,
+      "ville": "Garoua",
+      "telephone": "222 27 25 11",
+      "adresse": "699 86 97 20",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie de l'Amitié",
+      "lat": 9.3030541,
+      "lon": 13.3964911,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Etoile",
+      "lat": 9.2966502,
+      "lon": 13.3889622,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Jireh",
+      "lat": 3.9672671,
+      "lon": 11.5936877,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Nouvelle Pharmacie du Bénin",
+      "lat": 5.4808768,
+      "lon": 10.4130095,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Adama",
+      "lat": 7.3210125,
+      "lon": 13.5751594,
+      "ville": "Ngaoundere",
+      "telephone": "242 25 24 64",
+      "adresse": "",
+      "source": "merged",
+      "region": "Adamaoua"
+    },
+    {
+      "nom": "Saint Martin",
+      "lat": 3.8647393,
+      "lon": 11.5181947,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Lyonnaise",
+      "lat": 3.8760709,
+      "lon": 11.4970116,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Amazing Pharmacy",
+      "lat": 4.1562157,
+      "lon": 9.2881471,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Grosmelf Lab",
+      "lat": 4.1548001,
+      "lon": 9.2896447,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy Enamen",
+      "lat": 4.1593564,
+      "lon": 9.2825108,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.1550198,
+      "lon": 9.2911344,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Royal Pharmacy",
+      "lat": 4.1535901,
+      "lon": 9.252612,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Salvation Pharmacy",
+      "lat": 4.1544231,
+      "lon": 9.2603165,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Winner's Pharmacy",
+      "lat": 4.1539871,
+      "lon": 9.2574073,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0268919,
+      "lon": 9.6996547,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ketchy Madagascar",
+      "lat": 3.8828222,
+      "lon": 11.4926597,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Biyem-assi Dr Tchachou Joseph",
+      "lat": 3.8372952,
+      "lon": 11.4849664,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0517203,
+      "lon": 9.7030721,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Rive",
+      "lat": 4.0678133,
+      "lon": 9.7126033,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.7483988,
+      "lon": 9.4866242,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Lamarine",
+      "lat": 4.0634896,
+      "lon": 9.7060059,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "pharmacie de la fidelite",
+      "lat": 3.8722691,
+      "lon": 11.5050912,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Provinciale",
+      "lat": 3.8795091,
+      "lon": 11.5159436,
+      "ville": "Garoua",
+      "telephone": "677 64 18 56",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie la patience",
+      "lat": 4.0811236,
+      "lon": 9.7471699,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie notre dame des victoire",
+      "lat": 4.0869821,
+      "lon": 9.7650562,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie KD",
+      "lat": 4.0668533,
+      "lon": 9.7091293,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Deido Pharmacy",
+      "lat": 4.0608221,
+      "lon": 9.713034,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie La Coupole",
+      "lat": 4.0636394,
+      "lon": 9.71441,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Lilias",
+      "lat": 4.0698331,
+      "lon": 9.7261406,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Palmier",
+      "lat": 4.0447129,
+      "lon": 9.6866806,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pinpoh pharmaciy",
+      "lat": 5.8425896,
+      "lon": 10.4010447,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0512813,
+      "lon": 9.7763742,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy de Ndog-passi axe-lourd",
+      "lat": 4.0048605,
+      "lon": 9.7549902,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "People's pharmacy PK 8",
+      "lat": 4.047254,
+      "lon": 9.7594862,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Vita",
+      "lat": 4.0361231,
+      "lon": 9.7627081,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Les Merveilles",
+      "lat": 4.041466,
+      "lon": 9.7453275,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy la Vita Nyalla",
+      "lat": 4.0337102,
+      "lon": 9.7835023,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy ESSEC",
+      "lat": 4.0532982,
+      "lon": 9.7359075,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Djakoume Phamacy",
+      "lat": 4.0585048,
+      "lon": 9.7278217,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy Gabriel",
+      "lat": 4.0597963,
+      "lon": 9.7248179,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy Sante pour tous",
+      "lat": 4.0520481,
+      "lon": 9.7194109,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Grace",
+      "lat": 4.0725379,
+      "lon": 9.6685079,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Boulevard",
+      "lat": 4.0229747,
+      "lon": 9.7938086,
+      "ville": "Maroua",
+      "telephone": "222 29 32 31",
+      "adresse": "",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "louxia pharmacie",
+      "lat": 4.0310398,
+      "lon": 9.7895344,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Mvila",
+      "lat": 2.9190833,
+      "lon": 11.1516224,
+      "ville": "Ebolowa",
+      "telephone": "222 28 49 10",
+      "adresse": "",
+      "source": "merged",
+      "region": "Sud"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 5.6265722,
+      "lon": 10.2589328,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 5.730071,
+      "lon": 10.8974652,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 5.7310691,
+      "lon": 10.9003082,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Générale",
+      "lat": 4.5746379,
+      "lon": 13.6818732,
+      "ville": "Bertoua",
+      "telephone": "222 24 21 24",
+      "adresse": "Derrière Radio AURORE699 53 70 46",
+      "source": "merged",
+      "region": "Est"
+    },
+    {
+      "nom": "Pharmacie Mokolo",
+      "lat": 4.579299,
+      "lon": 13.6841366,
+      "ville": "Bertoua",
+      "telephone": "222 24 21 24",
+      "adresse": "Derrière Radio AURORE : 699 53 70 46",
+      "source": "merged",
+      "region": "Est"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.5750531,
+      "lon": 13.678046,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Fako Atlantic Pharmacy",
+      "lat": 4.0110907,
+      "lon": 9.2076329,
+      "ville": "Limbe",
+      "telephone": "233 33 26 30",
+      "adresse": "",
+      "source": "merged",
+      "region": "Sud-Ouest"
+    },
+    {
+      "nom": "Pharmacie PK8",
+      "lat": 4.0462689,
+      "lon": 9.7536397,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Taf pharmacy",
+      "lat": 4.0152025,
+      "lon": 9.2065219,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Limbe Pharmacy",
+      "lat": 4.0194024,
+      "lon": 9.2081498,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la liberté",
+      "lat": 3.8527373,
+      "lon": 11.5799773,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ste Madeleine",
+      "lat": 3.8618534,
+      "lon": 11.5857939,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Makepe",
+      "lat": 4.0848383,
+      "lon": 9.7552636,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0940179,
+      "lon": 9.6581492,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Nouvelle",
+      "lat": 4.0483093,
+      "lon": 9.6944746,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamacie de l'Amour",
+      "lat": 4.0957729,
+      "lon": 9.6510038,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Côte",
+      "lat": 4.0404472,
+      "lon": 9.6934536,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8000946,
+      "lon": 10.1298213,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Centre",
+      "lat": 5.444414,
+      "lon": 10.0554768,
+      "ville": "Dschang",
+      "telephone": "233 45 11 94",
+      "adresse": "699 98 98 86",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie de la Jouvence",
+      "lat": 4.0507694,
+      "lon": 9.698209,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "MINDILI",
+      "lat": 3.8245838,
+      "lon": 11.5364405,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.7209867,
+      "lon": 9.7344726,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Colombe",
+      "lat": 3.8849544,
+      "lon": 11.5357759,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Africa Pharmacy",
+      "lat": 4.0945104,
+      "lon": 9.6474628,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De L'espoir",
+      "lat": 5.1421589,
+      "lon": 10.5208055,
+      "ville": "Guider",
+      "telephone": "222 27 50 49",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Phamacie Bayard",
+      "lat": 3.9024161,
+      "lon": 11.5461689,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Oxygène",
+      "lat": 7.3256641,
+      "lon": 13.5849246,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 7.3188924,
+      "lon": 13.5878684,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie 2000",
+      "lat": 3.8857174,
+      "lon": 11.5079212,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Vimli",
+      "lat": 3.5208244,
+      "lon": 11.5053473,
+      "ville": "Mbalmayo",
+      "telephone": "222 04 85 38",
+      "adresse": "Mbalmayo",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8718871,
+      "lon": 11.4928374,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ambre",
+      "lat": 3.7984985,
+      "lon": 10.1294123,
+      "ville": "Edea",
+      "telephone": "222 04 01 44",
+      "adresse": "EDEA",
+      "source": "merged",
+      "region": "Littoral"
+    },
+    {
+      "nom": "Pharmacie Al Cnar",
+      "lat": 12.1116037,
+      "lon": 15.0283757,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Prestige Pharmacy",
+      "lat": 4.6344068,
+      "lon": 9.441044,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.9272773,
+      "lon": 11.5204614,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Populaire",
+      "lat": 3.8736658,
+      "lon": 11.5400568,
+      "ville": "Garoua",
+      "telephone": "222 27 25 11",
+      "adresse": "699 86 97 20",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharlacie du campus",
+      "lat": 7.4114884,
+      "lon": 13.547933,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Wisdom Pharmacy",
+      "lat": 4.6301602,
+      "lon": 9.4425948,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie EMIA",
+      "lat": 3.8626834,
+      "lon": 11.5017314,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mandela",
+      "lat": 3.8641188,
+      "lon": 11.4972547,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie MESSA",
+      "lat": 3.8722314,
+      "lon": 11.504311,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Providence",
+      "lat": 3.8733533,
+      "lon": 11.5031764,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.856051,
+      "lon": 11.4917086,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de L'esperance",
+      "lat": 7.3211319,
+      "lon": 13.5790409,
+      "ville": "Ngaoundere",
+      "telephone": "222 25 11 76",
+      "adresse": "",
+      "source": "merged",
+      "region": "Adamaoua"
+    },
+    {
+      "nom": "Pharmacie de la Gare",
+      "lat": 7.333106,
+      "lon": 13.5871131,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie le Saare",
+      "lat": 7.3268497,
+      "lon": 13.5832497,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Oxygene",
+      "lat": 7.3264088,
+      "lon": 13.585692,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Beka-hossere",
+      "lat": 7.311846,
+      "lon": 13.5506028,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de L'enttente",
+      "lat": 7.3190732,
+      "lon": 13.5851314,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de La Vina",
+      "lat": 7.3215403,
+      "lon": 13.5826483,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Coop Univers",
+      "lat": 7.2940144,
+      "lon": 13.5743036,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Awal",
+      "lat": 7.3191906,
+      "lon": 13.5899123,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Garou",
+      "lat": 7.3191263,
+      "lon": 13.5878922,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ngaha Clovis",
+      "lat": 7.3197974,
+      "lon": 13.5927438,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Afamba",
+      "lat": 4.1663908,
+      "lon": 11.5351055,
+      "ville": "Obala",
+      "telephone": "222 20 68 48",
+      "adresse": "NOUVELLE GESTION",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie Saint Thomas",
+      "lat": 4.1651556,
+      "lon": 11.5342753,
+      "ville": "Obala",
+      "telephone": "699 68 59 35",
+      "adresse": "Obala",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie de Bonamoussadi",
+      "lat": 4.0868264,
+      "lon": 9.7356592,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Bonamoussadi",
+      "lat": 4.0919031,
+      "lon": 9.7373708,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Bethesda",
+      "lat": 3.8323132,
+      "lon": 11.4885805,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Française",
+      "lat": 3.8636485,
+      "lon": 11.519731,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Intendance",
+      "lat": 3.8662978,
+      "lon": 11.5203653,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du bien-être",
+      "lat": 3.87467,
+      "lon": 11.5241352,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Le Mfoundi",
+      "lat": 3.8712767,
+      "lon": 11.5237932,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Vallée",
+      "lat": 3.8643429,
+      "lon": 11.5241083,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Grande Pharmacie des Lumiéres",
+      "lat": 3.8849407,
+      "lon": 11.5185535,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Verset",
+      "lat": 3.8767252,
+      "lon": 11.5065654,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Congrès",
+      "lat": 3.8869725,
+      "lon": 11.5027104,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Bastos",
+      "lat": 3.8920938,
+      "lon": 11.5120273,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamarcie de la Gare",
+      "lat": 5.4402491,
+      "lon": 10.0500801,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamarcie du Marché",
+      "lat": 5.4426714,
+      "lon": 10.0535936,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Grande pharmacie Lah",
+      "lat": 5.4462702,
+      "lon": 10.0561683,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamarcie de la Menoua",
+      "lat": 5.4478425,
+      "lon": 10.0600194,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamarcie de l'Unité",
+      "lat": 5.4582812,
+      "lon": 10.0692694,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamarcie Départementale",
+      "lat": 5.452106,
+      "lon": 10.0674435,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharamacie de Bertoua",
+      "lat": 4.5756739,
+      "lon": 13.6827337,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Galien",
+      "lat": 4.5774887,
+      "lon": 13.686422,
+      "ville": "Bertoua",
+      "telephone": "222 24 14 16",
+      "adresse": "Face Légion de Gendarmerie677 89 57 58",
+      "source": "merged",
+      "region": "Est"
+    },
+    {
+      "nom": "Pharmacie la générale",
+      "lat": 4.5751983,
+      "lon": 13.6809435,
+      "ville": "Bertoua",
+      "telephone": "222 24 21 24",
+      "adresse": "Derrière Radio AURORE699 53 70 46",
+      "source": "merged",
+      "region": "Est"
+    },
+    {
+      "nom": "Pharmacie de Douala",
+      "lat": 4.0458593,
+      "lon": 9.6992217,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la trinite",
+      "lat": 4.0543108,
+      "lon": 9.700579,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Carrefour Z",
+      "lat": 4.0545973,
+      "lon": 9.7495663,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Sotownek",
+      "lat": 3.8690857,
+      "lon": 11.4854108,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Saint Uriel",
+      "lat": 3.831293,
+      "lon": 11.5399297,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Jade",
+      "lat": 9.2967464,
+      "lon": 13.3891945,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.2996415,
+      "lon": 13.3904216,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mere D'enfants Ni",
+      "lat": 9.3037535,
+      "lon": 13.3925284,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Veterinaire Cema Vs Sarl",
+      "lat": 9.3066683,
+      "lon": 13.3953641,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Sodiprovet Sarl Pharmacie Veterinaire",
+      "lat": 9.3058088,
+      "lon": 13.395963,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Du Lamidat Dr Souleymanou Saly",
+      "lat": 9.3059256,
+      "lon": 13.3982345,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Md Vet Distribution Des Medicament Veterinaire",
+      "lat": 9.3027124,
+      "lon": 13.3964018,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De La Persévérance",
+      "lat": 9.2978343,
+      "lon": 13.3995927,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Fondation Médicale Adluchem Pharmacie Centrale Entenne De Garoua",
+      "lat": 9.3347384,
+      "lon": 13.4059221,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De La Grande Mosquée",
+      "lat": 9.3300166,
+      "lon": 13.4112141,
+      "ville": "Garoua",
+      "telephone": "222 27 27 04",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie Provinciale",
+      "lat": 9.3188883,
+      "lon": 13.4057598,
+      "ville": "Garoua",
+      "telephone": "677 64 18 56",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie Populaire",
+      "lat": 9.3122831,
+      "lon": 13.4008138,
+      "ville": "Garoua",
+      "telephone": "222 27 25 11",
+      "adresse": "699 86 97 20",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie Barka",
+      "lat": 9.3071764,
+      "lon": 13.3990798,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Du Grand Marché",
+      "lat": 9.3078875,
+      "lon": 13.3995071,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Assalam",
+      "lat": 9.3075596,
+      "lon": 13.4024969,
+      "ville": "Garoua",
+      "telephone": "242 17 12 79",
+      "adresse": "677 18 53 97",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.9660425,
+      "lon": 13.6165881,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.9848965,
+      "lon": 13.5213877,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.9849668,
+      "lon": 13.5204853,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Idenau pharmacy",
+      "lat": 4.2038695,
+      "lon": 8.9923125,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Enamen pharmacie",
+      "lat": 4.158921,
+      "lon": 9.2825413,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Friveralin pharmacy",
+      "lat": 4.0902089,
+      "lon": 9.3162779,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Thé glory pharmacy",
+      "lat": 4.0840503,
+      "lon": 9.3574244,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Faith standard pharmacy",
+      "lat": 4.0699974,
+      "lon": 9.3695028,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Rapha pharmacie",
+      "lat": 4.0147677,
+      "lon": 9.2010324,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0176847,
+      "lon": 9.2090642,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Prime pharmacie",
+      "lat": 4.014957,
+      "lon": 9.2090347,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Rainbow",
+      "lat": 4.0126867,
+      "lon": 9.2077166,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Fako Atlantic pharmacy",
+      "lat": 4.0111107,
+      "lon": 9.2075151,
+      "ville": "Limbe",
+      "telephone": "233 33 26 30",
+      "adresse": "",
+      "source": "merged",
+      "region": "Sud-Ouest"
+    },
+    {
+      "nom": "Grace standart pharmacie",
+      "lat": 4.0116002,
+      "lon": 9.2161205,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Herbal pharmacie",
+      "lat": 4.0123845,
+      "lon": 9.2175219,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Capha Vet Sarl Pharmacie Vétérinaires",
+      "lat": 3.8864393,
+      "lon": 11.5342397,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.9005657,
+      "lon": 11.4506443,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Du Bleu",
+      "lat": 3.880537,
+      "lon": 11.4506189,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.889715,
+      "lon": 11.4607343,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8972828,
+      "lon": 11.4549969,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Renaissance",
+      "lat": 3.8825423,
+      "lon": 11.4679932,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie d'Oyom-Abang",
+      "lat": 3.8750506,
+      "lon": 11.4754035,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8890955,
+      "lon": 11.5447866,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.9024474,
+      "lon": 11.5462451,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Capha Vet Sarl Pharmacie Vétérinaires",
+      "lat": 3.886491,
+      "lon": 11.5342397,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Sante",
+      "lat": 3.8724589,
+      "lon": 11.5322239,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Montesquieu (espace Conseils)",
+      "lat": 3.8625442,
+      "lon": 11.5249993,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Dr.iguedo's Goko",
+      "lat": 3.8722753,
+      "lon": 11.5399355,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mvog Ada",
+      "lat": 3.8643785,
+      "lon": 11.5277271,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De L'arche",
+      "lat": 3.8663421,
+      "lon": 11.5295865,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Le Bon Berger",
+      "lat": 3.8813214,
+      "lon": 11.5388462,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De La Rosée",
+      "lat": 3.9002316,
+      "lon": 11.5568303,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de La Chapelle",
+      "lat": 3.8988401,
+      "lon": 11.5497167,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Le Cygne",
+      "lat": 3.8618149,
+      "lon": 11.5303784,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Complexe Miss Ngou",
+      "lat": 3.8878926,
+      "lon": 11.5583002,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De La Cité",
+      "lat": 3.8851982,
+      "lon": 11.5517932,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Médicament Vétérinaire",
+      "lat": 3.8689175,
+      "lon": 11.5277825,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Lycée Bilingue",
+      "lat": 3.8785935,
+      "lon": 11.5496417,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamarcie Athera",
+      "lat": 3.8867912,
+      "lon": 11.5474852,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pro-pharmacie",
+      "lat": 3.9071578,
+      "lon": 11.5665114,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Santé St Victor",
+      "lat": 3.9128037,
+      "lon": 11.5616834,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Médecine Naturelle De Maman Nettoyage",
+      "lat": 3.924255,
+      "lon": 11.56052,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Pont",
+      "lat": 4.0708559,
+      "lon": 9.6828074,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Bonambappe",
+      "lat": 4.0738794,
+      "lon": 9.6760028,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie La Référence",
+      "lat": 3.8941583,
+      "lon": 11.5490815,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "new todjon",
+      "lat": 5.3729973,
+      "lon": 10.4148181,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "koung khi",
+      "lat": 5.3717708,
+      "lon": 10.4126455,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Statoise",
+      "lat": 3.8449852,
+      "lon": 11.5278381,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'étoile",
+      "lat": 3.8387131,
+      "lon": 11.4816492,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Jérusalem",
+      "lat": 3.8403714,
+      "lon": 11.4768711,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0422412,
+      "lon": 9.7153533,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Nouveau pharmacie d'Akwa",
+      "lat": 4.0463672,
+      "lon": 9.6983813,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Medecine chinoise",
+      "lat": 2.9276332,
+      "lon": 9.912396,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'atlantique",
+      "lat": 2.940137,
+      "lon": 9.9136025,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie De La Gloire",
+      "lat": 2.9465013,
+      "lon": 9.9132842,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Siloë",
+      "lat": 3.8489637,
+      "lon": 11.482124,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.830191,
+      "lon": 11.550909,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie urbaine",
+      "lat": 3.8679438,
+      "lon": 11.5192009,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Bonapriso",
+      "lat": 4.0245088,
+      "lon": 9.6987122,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8671906,
+      "lon": 11.548783,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie BINAM",
+      "lat": 5.4827335,
+      "lon": 10.4291904,
+      "ville": "Bafoussam",
+      "telephone": "233 44 32 31",
+      "adresse": "Route Foumban",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie de la gloire",
+      "lat": 2.9450528,
+      "lon": 9.9128562,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Nations",
+      "lat": 3.887733,
+      "lon": 11.5216344,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Olembé Pharmacy",
+      "lat": 3.9569055,
+      "lon": 11.5334315,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie 3A",
+      "lat": 3.8276107,
+      "lon": 11.4707056,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Simbock",
+      "lat": 3.8212364,
+      "lon": 11.4718734,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie d'Edea",
+      "lat": 3.7969696,
+      "lon": 10.1307904,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Efoulan",
+      "lat": 3.8356646,
+      "lon": 11.5068517,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "pharmacie banka",
+      "lat": 5.1627255,
+      "lon": 10.1912603,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Rapido Fiango",
+      "lat": 4.6390629,
+      "lon": 9.448743,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Messamendongo",
+      "lat": 3.7966201,
+      "lon": 11.5225284,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Élite",
+      "lat": 3.8639878,
+      "lon": 11.4893178,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Marijova",
+      "lat": 3.8703088,
+      "lon": 11.4816399,
+      "ville": "Yaounde",
+      "telephone": "699 98 86 83",
+      "adresse": "Entrée CARREFOUR MECC",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie La Destinée",
+      "lat": 2.914639,
+      "lon": 11.1667841,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Equaser",
+      "lat": 2.9229009,
+      "lon": 11.149987,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 2.9021995,
+      "lon": 11.1507781,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Tabita",
+      "lat": 3.5275258,
+      "lon": 11.5147121,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pro Pharmacie",
+      "lat": 3.8511459,
+      "lon": 11.4971182,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.5164171,
+      "lon": 11.5017427,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 7.1449671,
+      "lon": 13.7179619,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Saint Bernadette",
+      "lat": 3.8528423,
+      "lon": 11.4990238,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Grande Cœur Pharmacie",
+      "lat": 4.0669048,
+      "lon": 9.7588481,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie d'Ahala",
+      "lat": 3.7946619,
+      "lon": 11.4899437,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Botanik",
+      "lat": 3.8611662,
+      "lon": 11.5729856,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Nsam",
+      "lat": 3.8251092,
+      "lon": 11.5076691,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Lekie",
+      "lat": 4.1671035,
+      "lon": 11.5286715,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Yassa",
+      "lat": 3.9996216,
+      "lon": 9.8027194,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Concorde",
+      "lat": 4.0839733,
+      "lon": 9.738054,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Royale",
+      "lat": 4.0272689,
+      "lon": 9.70398,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie les Pétales",
+      "lat": 3.8692647,
+      "lon": 11.5156414,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Sion",
+      "lat": 3.8652662,
+      "lon": 11.5173643,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Sept Collines",
+      "lat": 3.8671308,
+      "lon": 11.4960491,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Logbaba",
+      "lat": 4.0322434,
+      "lon": 9.7667239,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Logpom",
+      "lat": 4.08279,
+      "lon": 9.7705,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Nkozoa",
+      "lat": 3.9653961,
+      "lon": 11.5407427,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.9672653,
+      "lon": 11.5937195,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "pharmacie jireh",
+      "lat": 3.9673911,
+      "lon": 11.5933834,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Sipen",
+      "lat": 4.0326219,
+      "lon": 9.7253427,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Shell",
+      "lat": 4.0087858,
+      "lon": 9.7421991,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Get Better",
+      "lat": 3.8524808,
+      "lon": 11.480823,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Priorité Santé",
+      "lat": 3.8835471,
+      "lon": 11.5568189,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie les manguiers",
+      "lat": 3.8985052,
+      "lon": 11.5316515,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Sésames",
+      "lat": 3.8772569,
+      "lon": 11.4841477,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Brique",
+      "lat": 3.8760773,
+      "lon": 11.5120364,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Cousin Castor",
+      "lat": 3.8697335,
+      "lon": 11.5311049,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Rosée",
+      "lat": 3.8704082,
+      "lon": 11.5343846,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Quifferou",
+      "lat": 3.8683616,
+      "lon": 11.5315165,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Saint-Luc",
+      "lat": 3.8680767,
+      "lon": 11.5319933,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du 20 Mai",
+      "lat": 3.8627988,
+      "lon": 11.5194778,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Universite",
+      "lat": 3.8595544,
+      "lon": 11.5044198,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8572465,
+      "lon": 11.5224716,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Theriaque",
+      "lat": 3.8522755,
+      "lon": 11.5358543,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Capucines",
+      "lat": 3.8493537,
+      "lon": 11.5215103,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ekounou",
+      "lat": 3.8439552,
+      "lon": 11.5399051,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ekounou",
+      "lat": 3.8440469,
+      "lon": 11.5405234,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Hakkore",
+      "lat": 3.8435794,
+      "lon": 11.536017,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Sim Ba'a",
+      "lat": 3.828305,
+      "lon": 11.4793414,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Ananaraie",
+      "lat": 3.8338107,
+      "lon": 11.5364517,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie caméric",
+      "lat": 3.7890339,
+      "lon": 11.4012493,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Grâce",
+      "lat": 3.8316173,
+      "lon": 11.4709087,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Royale",
+      "lat": 3.8317579,
+      "lon": 11.4707698,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Jouvence",
+      "lat": 3.8300171,
+      "lon": 11.4820326,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Jouvance",
+      "lat": 3.8352357,
+      "lon": 11.4849434,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Nkoldongo",
+      "lat": 3.8560185,
+      "lon": 11.5272655,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Star",
+      "lat": 3.8538515,
+      "lon": 11.5240268,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Odza",
+      "lat": 3.8075445,
+      "lon": 11.5303141,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Nkomo",
+      "lat": 3.8449966,
+      "lon": 11.5451299,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Parapharmacie",
+      "lat": 3.8783805,
+      "lon": 11.5329287,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie 2000",
+      "lat": 3.8895156,
+      "lon": 11.5146666,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Balance",
+      "lat": 3.8617127,
+      "lon": 11.5370343,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Buvole Abondo",
+      "lat": 3.8892827,
+      "lon": 11.4927156,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Emmanuel",
+      "lat": 3.8797062,
+      "lon": 11.508359,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Moliva",
+      "lat": 3.8779385,
+      "lon": 11.4947821,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mongale",
+      "lat": 3.8862089,
+      "lon": 11.4923311,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Notre-Dame",
+      "lat": 3.8855856,
+      "lon": 11.5026391,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie d'Étondi",
+      "lat": 3.9164405,
+      "lon": 11.5234718,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Tongolo",
+      "lat": 3.9068149,
+      "lon": 11.52501,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Hortensia",
+      "lat": 3.8814503,
+      "lon": 11.5065239,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Château",
+      "lat": 3.8636263,
+      "lon": 11.5446105,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Jourdain",
+      "lat": 3.8847155,
+      "lon": 11.4977339,
+      "ville": "Yaounde",
+      "telephone": "242 02 60 30",
+      "adresse": "Immeuble MACABO - NKOMKANA 222 22 28 63",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie du Palais",
+      "lat": 3.9145154,
+      "lon": 11.525617,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Soleil",
+      "lat": 3.8671196,
+      "lon": 11.5171518,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Concorde",
+      "lat": 3.8918053,
+      "lon": 11.5226326,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Flêche",
+      "lat": 3.8675074,
+      "lon": 11.5491529,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie le Cristallis",
+      "lat": 3.8819156,
+      "lon": 11.5234988,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie École de Police",
+      "lat": 3.8784154,
+      "lon": 11.5105848,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Élobi",
+      "lat": 3.8778123,
+      "lon": 11.5010669,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Aumachae",
+      "lat": 3.8688083,
+      "lon": 11.5528177,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8678805,
+      "lon": 11.5273189,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 3.8684399,
+      "lon": 11.5520333,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Arab Contractor Residence",
+      "lat": 3.9321663,
+      "lon": 11.5225598,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Béatitudes",
+      "lat": 3.8458393,
+      "lon": 11.4927971,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "CAI",
+      "lat": 3.9099995,
+      "lon": 11.5255722,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "CYFO",
+      "lat": 3.8105093,
+      "lon": 11.5400263,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Du Cypres",
+      "lat": 3.872903,
+      "lon": 11.4549636,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "François Tchoupou",
+      "lat": 3.8593653,
+      "lon": 11.5534379,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Lido",
+      "lat": 3.8701728,
+      "lon": 11.5309413,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Lienou",
+      "lat": 3.8594935,
+      "lon": 11.5556369,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Obili",
+      "lat": 3.8512057,
+      "lon": 11.4934746,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Nsimeyong",
+      "lat": 3.8352367,
+      "lon": 11.4944118,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Melen",
+      "lat": 3.8504058,
+      "lon": 11.486577,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "le Flamboyant",
+      "lat": 3.8435064,
+      "lon": 11.4872997,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Grande Mosquée",
+      "lat": 9.3299898,
+      "lon": 13.411216,
+      "ville": "Garoua",
+      "telephone": "222 27 27 04",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie Provinciale",
+      "lat": 9.303648,
+      "lon": 13.4006208,
+      "ville": "Garoua",
+      "telephone": "677 64 18 56",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 9.3078104,
+      "lon": 13.3994978,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Nord",
+      "lat": 9.2996212,
+      "lon": 13.3904095,
+      "ville": "Garoua",
+      "telephone": "222 27 13 79",
+      "adresse": "",
+      "source": "merged",
+      "region": "Nord"
+    },
+    {
+      "nom": "Pharmacie de Sa'a",
+      "lat": 4.3623152,
+      "lon": 11.4399521,
+      "ville": "Sa A",
+      "telephone": "222 28 58 77",
+      "adresse": "Sa'a",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.094415,
+      "lon": 9.6465418,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Providence",
+      "lat": 4.0872769,
+      "lon": 9.6650832,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0922235,
+      "lon": 9.6600721,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Nkomba Mambanda Phamarcy",
+      "lat": 4.071182,
+      "lon": 9.6679655,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0806422,
+      "lon": 9.66971,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0252922,
+      "lon": 9.6932503,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0246026,
+      "lon": 9.6982997,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Laborex",
+      "lat": 4.0520791,
+      "lon": 9.7012446,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0680215,
+      "lon": 9.7128524,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Axiale",
+      "lat": 4.0707651,
+      "lon": 9.718707,
+      "ville": "Douala",
+      "telephone": "233 41 39 39",
+      "adresse": "Axe lourd BEPANDA 674 14 57 57",
+      "source": "merged",
+      "region": "Littoral"
+    },
+    {
+      "nom": "Pharmacie Gabriel",
+      "lat": 4.0594944,
+      "lon": 9.7244152,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacy Cosmos Sante",
+      "lat": 4.0461071,
+      "lon": 9.7322225,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de salen",
+      "lat": 4.0984116,
+      "lon": 9.7369068,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Rocher",
+      "lat": 4.0486982,
+      "lon": 9.7408878,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.081422,
+      "lon": 9.7467279,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie",
+      "lat": 4.0931686,
+      "lon": 9.7495265,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Kotto",
+      "lat": 4.0917918,
+      "lon": 9.7496647,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie La Shekinah",
+      "lat": 4.0022331,
+      "lon": 9.7619248,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de La République PK14",
+      "lat": 4.0782897,
+      "lon": 9.7934699,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Bafia",
+      "lat": 4.7421709,
+      "lon": 11.2250904,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie AIDA",
+      "lat": 4.7432912,
+      "lon": 11.2251908,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pro-pharmacie",
+      "lat": 5.5409983,
+      "lon": 12.3186904,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Rainbow Chemist Limited",
+      "lat": 4.0127722,
+      "lon": 9.2078312,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Limbe Pharmacy",
+      "lat": 4.0206382,
+      "lon": 9.2090926,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Desteny Pharmacy",
+      "lat": 4.0217739,
+      "lon": 9.209618,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Martyrs",
+      "lat": 5.4777978,
+      "lon": 10.416742,
+      "ville": "Bafoussam",
+      "telephone": "233 44 66 80",
+      "adresse": "Carrefour BIAO 699 92 57 69",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie la grace",
+      "lat": 5.4801771,
+      "lon": 10.4228954,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la vision",
+      "lat": 5.4800769,
+      "lon": 10.4161428,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie pierre Moyo",
+      "lat": 5.4781648,
+      "lon": 10.4189688,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Benin",
+      "lat": 5.4800181,
+      "lon": 10.4135681,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Nouvele Pharmacie du Benin",
+      "lat": 5.4798952,
+      "lon": 10.4136871,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Acacias",
+      "lat": 3.8412473,
+      "lon": 11.4879527,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie SALVIA",
+      "lat": 5.4894513,
+      "lon": 10.4056805,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Marché B",
+      "lat": 5.4859965,
+      "lon": 10.4091119,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La référence Boîte à Pharmacie du Marche du MIL",
+      "lat": 12.070828,
+      "lon": 15.030934,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Al Salama",
+      "lat": 12.0872325,
+      "lon": 15.0280881,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Al Maraz",
+      "lat": 12.0847548,
+      "lon": 15.0260294,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Association Sociale pour la Réadaptation et le sions de Jeunes",
+      "lat": 12.0753169,
+      "lon": 15.0260409,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Quartier",
+      "lat": 12.078113,
+      "lon": 15.0344122,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Association Sociale pour la Réadaptation et le Sions de Jeunes",
+      "lat": 12.0780847,
+      "lon": 15.0296266,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "INDUSTRIES CHIMIQUES ET FABRICATION DE PRODUITS CHIMIQUES",
+      "lat": 3.9867326,
+      "lon": 13.1781865,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Ndobo",
+      "lat": 4.0943965,
+      "lon": 9.6430018,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "UBI PHARM",
+      "lat": 3.8171268,
+      "lon": 11.5099728,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "PHARMACIE CARREFOUR PK11",
+      "lat": 4.0510887,
+      "lon": 9.7767535,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "UBI PHARM",
+      "lat": 4.0343732,
+      "lon": 9.7359066,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie XAVYO",
+      "lat": 3.8546978,
+      "lon": 11.5200944,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Camerounaise",
+      "lat": 3.862906,
+      "lon": 11.5214425,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Olympique",
+      "lat": 4.0599154,
+      "lon": 9.7022587,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de domayo",
+      "lat": 10.5911831,
+      "lon": 14.3106417,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Ferngo",
+      "lat": 10.5945889,
+      "lon": 14.3148331,
+      "ville": "Maroua",
+      "telephone": "222 29 15 43",
+      "adresse": "Quartier Kakatare",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "Pharmacie du Boulevard",
+      "lat": 10.5941316,
+      "lon": 14.3218412,
+      "ville": "Maroua",
+      "telephone": "222 29 32 31",
+      "adresse": "",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "Pharmacie du Sahel",
+      "lat": 10.5953292,
+      "lon": 14.3305074,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie EMERAUDE",
+      "lat": 10.6013586,
+      "lon": 14.3215949,
+      "ville": "Maroua",
+      "telephone": "696 29 73 96",
+      "adresse": "Quartier Kakatare",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "Pharmacie EMERAUDE",
+      "lat": 10.6009259,
+      "lon": 14.3214742,
+      "ville": "Maroua",
+      "telephone": "696 29 73 96",
+      "adresse": "Quartier Kakatare",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "Pharmacie KALIAO",
+      "lat": 10.5997372,
+      "lon": 14.3177771,
+      "ville": "Maroua",
+      "telephone": "222 29 32 59",
+      "adresse": "",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "Pharmacie Masseboeuf",
+      "lat": 10.6050154,
+      "lon": 14.3258706,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de lextrème nord",
+      "lat": 10.6033749,
+      "lon": 14.3291326,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Maroua",
+      "lat": 10.6013264,
+      "lon": 14.3361618,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Centre",
+      "lat": 10.605619,
+      "lon": 14.3343796,
+      "ville": "Dschang",
+      "telephone": "233 45 11 94",
+      "adresse": "699 98 98 86",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Phamarcie du Secours",
+      "lat": 5.4703727,
+      "lon": 10.4214663,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Montagnes",
+      "lat": 5.4761661,
+      "lon": 10.4187008,
+      "ville": "Bafoussam",
+      "telephone": "233 44 44 56",
+      "adresse": "Face UCCAO 699 99 41 94",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie Noubissi",
+      "lat": 5.4717794,
+      "lon": 10.4212428,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Amienoise",
+      "lat": 5.470068,
+      "lon": 10.4174216,
+      "ville": "Bafoussam",
+      "telephone": "233 44 51 10",
+      "adresse": "Place des Fêtes",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "Pharmacie Madelon",
+      "lat": 5.4635963,
+      "lon": 10.4243995,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Sainte Monique",
+      "lat": 5.4618517,
+      "lon": 10.4277697,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Noubissi",
+      "lat": 5.4719666,
+      "lon": 10.4215761,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Pierre Moyo",
+      "lat": 5.4782911,
+      "lon": 10.4189548,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie la Grâce",
+      "lat": 5.4802001,
+      "lon": 10.4232115,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Polypharma",
+      "lat": 5.4806769,
+      "lon": 10.4251086,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Nectar",
+      "lat": 5.4844189,
+      "lon": 10.4377372,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de Kaélé",
+      "lat": 10.1095197,
+      "lon": 14.4474219,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Phamacie de l'Horizon",
+      "lat": 4.0660691,
+      "lon": 9.7293575,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Gloire",
+      "lat": 2.9464895,
+      "lon": 9.9132896,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Centre",
+      "lat": 4.0569621,
+      "lon": 9.7219542,
+      "ville": "Dschang",
+      "telephone": "233 45 11 94",
+      "adresse": "699 98 98 86",
+      "source": "merged",
+      "region": "Ouest"
+    },
+    {
+      "nom": "medecine shoppe pharmacy",
+      "lat": 4.0220445,
+      "lon": 9.1968695,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de la Renaissance",
+      "lat": 2.923978,
+      "lon": 11.1549474,
+      "ville": "Sa A",
+      "telephone": "677 98 20 76",
+      "adresse": "",
+      "source": "merged",
+      "region": "Centre"
+    },
+    {
+      "nom": "Pharmacie du Bercail",
+      "lat": 2.9208897,
+      "lon": 11.1505664,
+      "ville": "Ebolowa",
+      "telephone": "222 00 87 37",
+      "adresse": "222 66 08 99",
+      "source": "merged",
+      "region": "Sud"
+    },
+    {
+      "nom": "Prime Pharmacy",
+      "lat": 4.0150393,
+      "lon": 9.2089792,
+      "ville": "Limbe",
+      "telephone": "233 33 29 28",
+      "adresse": "",
+      "source": "merged",
+      "region": "Sud-Ouest"
+    },
+    {
+      "nom": "Pharmacie La Concorde",
+      "lat": 4.0550517,
+      "lon": 9.6989115,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Harmonie",
+      "lat": 4.0828583,
+      "lon": 9.7200695,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mondial",
+      "lat": 4.0579721,
+      "lon": 9.7103307,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie des Hopitaux",
+      "lat": 4.0486785,
+      "lon": 9.7011281,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie du Mayo Danay",
+      "lat": 10.3431214,
+      "lon": 15.2307747,
+      "ville": "Yagoua",
+      "telephone": "222 29 65 20",
+      "adresse": "",
+      "source": "merged",
+      "region": "Extrême-Nord"
+    },
+    {
+      "nom": "Pharmacie de Messassi",
+      "lat": 3.9422455,
+      "lon": 11.5190906,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "pharmacie1",
+      "lat": 7.1420166,
+      "lon": 13.7208068,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "pharmacie2",
+      "lat": 7.1421728,
+      "lon": 13.7210077,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie La santé",
+      "lat": 3.7740864,
+      "lon": 12.2468556,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "La Référence de Ngousso",
+      "lat": 3.8943449,
+      "lon": 11.5491697,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie de l'Unité",
+      "lat": 3.8588385,
+      "lon": 11.5216897,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Bleue",
+      "lat": 3.9076768,
+      "lon": 11.5422648,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "Pharmacie Mvog-Ada",
+      "lat": 3.8643582,
+      "lon": 11.5278059,
+      "ville": "Inconnu",
+      "telephone": "",
+      "adresse": "",
+      "source": "osm"
+    },
+    {
+      "nom": "PHARMACIE DU MAYO BANYO",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Banyo",
+      "telephone": "699 52 24 77",
+      "adresse": "695 20 97 01",
+      "region": "Adamaoua",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CARREFOUR AOUDI",
+      "lat": 7.3217,
+      "lon": 13.5833,
+      "ville": "Ngaoundere",
+      "telephone": "233 08 08 48",
+      "adresse": "677 71 64 93",
+      "region": "Adamaoua",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE L'ENTENTE22 19 80 51Ngaoundéré:",
+      "lat": 7.321965495371342,
+      "lon": 13.586176553231624,
+      "ville": "Ngaoundere",
+      "telephone": "",
+      "adresse": "",
+      "region": "Adamaoua",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA GARE NGAOUNDERE",
+      "lat": 7.320482116141077,
+      "lon": 13.589190296893655,
+      "ville": "Ngaoundere",
+      "telephone": "222 25 16 88",
+      "adresse": "694 01 01 45",
+      "region": "Adamaoua",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE GRAND MARCHE NGAOUNDERE22 15 78 44Ngaoundéré:",
+      "lat": 7.317265897613342,
+      "lon": 13.591279959892832,
+      "ville": "Ngaoundere",
+      "telephone": "699 10 05 54",
+      "adresse": "",
+      "region": "Adamaoua",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE LA VINA",
+      "lat": 7.312954678471075,
+      "lon": 13.591483676841431,
+      "ville": "Ngaoundere",
+      "telephone": "222 25 14 68",
+      "adresse": "",
+      "region": "Adamaoua",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE AIDA 22 28 57 70 BAFIA",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Bafia",
+      "telephone": "674 14 57 57",
+      "adresse": "",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE BASIA",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Bafia",
+      "telephone": "222 28 54 04",
+      "adresse": "BAFIA",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE NYONG",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mbalmayo",
+      "telephone": "697 40 54 36",
+      "adresse": "Mbalmayo",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PATIENCE",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Mbalmayo",
+      "telephone": "222 28 17 56",
+      "adresse": "Mbalmayo",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CANNES",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mbandjock",
+      "telephone": "222 23 68 30",
+      "adresse": "Mbandjock",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CAMERIC",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mbankomo",
+      "telephone": "679 79 50 79",
+      "adresse": "",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE D'OBALA",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Obala",
+      "telephone": "222 28 56 78",
+      "adresse": "Obala 677 63 98 26",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PALAIS",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Yaounde",
+      "telephone": "691 54 16 18",
+      "adresse": "ETOUDI STATIONNEMENT",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE ACACIAS",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Yaounde",
+      "telephone": "699 61 96 54",
+      "adresse": "BIYEM-ASSI CENTRE",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE D'ODZA",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Yaounde",
+      "telephone": "222 30 51 33",
+      "adresse": "Carrefour MBOG-ABANG 697 99 85 90",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "WORLD PHARMACY",
+      "lat": 3.8485658976133417,
+      "lon": 11.510079959892833,
+      "ville": "Yaounde",
+      "telephone": "670 11 60 14",
+      "adresse": "CAMP SIC NLONGKAK 693 96 42 34",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PETALES",
+      "lat": 3.8442546784710756,
+      "lon": 11.510283676841432,
+      "ville": "Yaounde",
+      "telephone": "222 23 15 97",
+      "adresse": "vers LE CAPITOLE",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "Nasturtium Pharmacy",
+      "lat": 3.8399885638445306,
+      "lon": 11.50808472144104,
+      "ville": "Yaounde",
+      "telephone": "242 66 63 05",
+      "adresse": "Siantou Supérieur699 83 81 06",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PERSEVERANCE",
+      "lat": 3.837110082537395,
+      "lon": 11.503652320088658,
+      "ville": "Yaounde",
+      "telephone": "243 84 41 35",
+      "adresse": "AWAE ESCALIER 243 84 67 75",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE HERMES",
+      "lat": 3.83676251975251,
+      "lon": 11.497890601267725,
+      "ville": "Yaounde",
+      "telephone": "243 64 11 81",
+      "adresse": "Face BOULANGERIE NEZATI_EMANA 677 98 70 75",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA VIE",
+      "lat": 3.839502632928773,
+      "lon": 11.492261567560996,
+      "ville": "Yaounde",
+      "telephone": "222 22 67 87",
+      "adresse": "face FOKOU MOKOLO",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE MINKAN",
+      "lat": 3.845048858807969,
+      "lon": 11.488414578352689,
+      "ville": "Yaounde",
+      "telephone": "673 49 07 17",
+      "adresse": "Carrefour JESUS 697 24 77 75",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE LEADER",
+      "lat": 3.8522549327819484,
+      "lon": 11.487716135880053,
+      "ville": "Yaounde",
+      "telephone": "694 04 21 88",
+      "adresse": "à côté de la BGFI BANK, Omnisports",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "CHEKEM PHARMACY",
+      "lat": 3.85933871638866,
+      "lon": 11.490811354790875,
+      "ville": "Yaounde",
+      "telephone": "672 51 89 19",
+      "adresse": "face SUN CITY - ESSOS",
+      "region": "Centre",
+      "source": "website_only"
+    },
+    {
+      "nom": "ORIENT PHARMACY",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Batouri",
+      "telephone": "242 63 56 33",
+      "adresse": ":",
+      "region": "Est",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE LA GLOIRE",
+      "lat": 4.5822,
+      "lon": 13.6847,
+      "ville": "Bertoua",
+      "telephone": "222 12 47 48",
+      "adresse": "À coté du SENAJES, quartier TINDAMBA6222 24 23 23",
+      "region": "Est",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE STELLA",
+      "lat": 4.582465495371342,
+      "lon": 13.687576553231624,
+      "ville": "Bertoua",
+      "telephone": "222 24 23 37",
+      "adresse": "Quartier BAVELE6677 42 93 49",
+      "region": "Est",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE LE BRUXELLOIS",
+      "lat": 4.580982116141078,
+      "lon": 13.690590296893655,
+      "ville": "Bertoua",
+      "telephone": "222 24 17 17",
+      "adresse": "Face Délégation du Travail696 39 93 23",
+      "region": "Est",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA FRONTIÈRE",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Garoua Boulai",
+      "telephone": "699 22 32 99",
+      "adresse": "",
+      "region": "Est",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE QUSSUR",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Kousseri",
+      "telephone": "675 08 69 08",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU CHARI",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Kousseri",
+      "telephone": "222 29 40 80",
+      "adresse": "675 25 43 01",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE MAGA",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Maga",
+      "telephone": "699 51 90 59",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE EXTREME NORD22 29 12 40Maroua: Quartier Kakatare",
+      "lat": 10.6006,
+      "lon": 14.3159,
+      "ville": "Maroua",
+      "telephone": "",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU SAHEL22 29 16 56Maroua:",
+      "lat": 10.600865495371341,
+      "lon": 14.318776553231624,
+      "ville": "Maroua",
+      "telephone": "",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU CENTRE MAROUA",
+      "lat": 10.599382116141076,
+      "lon": 14.321790296893655,
+      "ville": "Maroua",
+      "telephone": "222 29 12 09",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE MAROUA6",
+      "lat": 10.596165897613341,
+      "lon": 14.323879959892832,
+      "ville": "Maroua",
+      "telephone": "222 29 33 14",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DOMAYO SARL",
+      "lat": 10.591854678471075,
+      "lon": 14.32408367684143,
+      "ville": "Maroua",
+      "telephone": "699 59 84 83",
+      "adresse": "",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU BON SECOURS",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Yagoua",
+      "telephone": "222 20 25 19",
+      "adresse": "677 73 68 82",
+      "region": "Extrême-Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "ST. JOSEF PHARMACY",
+      "lat": 4.0561,
+      "lon": 9.7679,
+      "ville": "Douala",
+      "telephone": "699 10 48 18",
+      "adresse": "LOGBESSOU SISTERS' HOP STREET",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE LA TRINITE",
+      "lat": 4.056365495371342,
+      "lon": 9.770776553231624,
+      "ville": "Douala",
+      "telephone": "233 42 46 44",
+      "adresse": "RUE JAMOT CLINIQUE DU BERCEAU",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CARREFOUR ANATOLE",
+      "lat": 4.054882116141077,
+      "lon": 9.773790296893655,
+      "ville": "Douala",
+      "telephone": "233128697",
+      "adresse": "TOTAL ANATOLE BALI",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE NJO NJO",
+      "lat": 4.051665897613342,
+      "lon": 9.775879959892832,
+      "ville": "Douala",
+      "telephone": "233423925",
+      "adresse": "AVENUE NJO NJO",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE SHEKINA",
+      "lat": 4.047354678471075,
+      "lon": 9.77608367684143,
+      "ville": "Douala",
+      "telephone": "699 60 88 41",
+      "adresse": "ENTREE LYCEE NDOGPASSI",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "010PHARMACIE ARC",
+      "lat": 4.04308856384453,
+      "lon": 9.77388472144104,
+      "ville": "Douala",
+      "telephone": "233 42 60 30",
+      "adresse": "POLYCLINIQUE D'AKWA",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU MARCHE",
+      "lat": 4.040210082537395,
+      "lon": 9.769452320088657,
+      "ville": "Douala",
+      "telephone": "233 42 64 57",
+      "adresse": "A COTE COMMISSARIAT MADAGASCAR",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CITE DES PALMIERS",
+      "lat": 4.039862519752511,
+      "lon": 9.763690601267724,
+      "ville": "Douala",
+      "telephone": "233372484",
+      "adresse": "CITE DES PALMIERS",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE BONAMOUSSADI",
+      "lat": 4.042602632928773,
+      "lon": 9.758061567560995,
+      "ville": "Douala",
+      "telephone": "233 47 24 81",
+      "adresse": "ROND POINT MAETUR FACE ECOBANK",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE NOTRE DAME DES VICTOIRES 243 064 244Douala: Carrefour WILLIAMS ANDEM",
+      "lat": 4.048148858807969,
+      "lon": 9.754214578352688,
+      "ville": "Douala",
+      "telephone": "",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DES IMMEUBLES",
+      "lat": 4.055354932781948,
+      "lon": 9.753516135880052,
+      "ville": "Douala",
+      "telephone": "652 52 38 24",
+      "adresse": "TRADEX KOTTO IMMEUBLE BAR",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE SASS",
+      "lat": 4.06243871638866,
+      "lon": 9.756611354790873,
+      "ville": "Douala",
+      "telephone": "233 02 87 43",
+      "adresse": "Bapenda Omnisport",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE ARC EN CIEL",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Edea",
+      "telephone": "233 46 41 32",
+      "adresse": "EDEA657 699 94 83",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU PEUPLE",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Edea",
+      "telephone": "233 14 61 79",
+      "adresse": "EDEA",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LOUM",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Loum",
+      "telephone": "233 49 35 45",
+      "adresse": "699 53 27 91",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE NOVA MACK",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mbanga",
+      "telephone": "243 77 46 95",
+      "adresse": "677 66 73 37",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE MBANGA33 49 16 15Mbanga:",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Mbanga",
+      "telephone": "699 75 47 55",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE MELONGMelong:",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Melong",
+      "telephone": "",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PRINCIPALE",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Nkongsamba",
+      "telephone": "233 49 12 11",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE MANENGOUBA33 49 16 15Nkongsamba:",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Nkongsamba",
+      "telephone": "233 49 30 03",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU TEMPLE33 49 16 15Nkongsamba:",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Nkongsamba",
+      "telephone": "674 45 85 73",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PACIFIC PHARMACY33 49 24 26Nkongsamba:",
+      "lat": 3.8485658976133417,
+      "lon": 11.510079959892833,
+      "ville": "Nkongsamba",
+      "telephone": "677 70 26 31",
+      "adresse": "",
+      "region": "Littoral",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU CARREFOUR",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Figuil",
+      "telephone": "222 27 56 97",
+      "adresse": "679 62 14 30",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE MERE D'ENFANT2",
+      "lat": 9.3064,
+      "lon": 13.3984,
+      "ville": "Garoua",
+      "telephone": "698 48 72 00",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU LAMIDAT",
+      "lat": 9.306665495371341,
+      "lon": 13.401276553231625,
+      "ville": "Garoua",
+      "telephone": "222 27 22 61",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU CENTRE GAROUA22 27 33 10Garoua:",
+      "lat": 9.305182116141076,
+      "lon": 13.404290296893656,
+      "ville": "Garoua",
+      "telephone": "",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE NGONG",
+      "lat": 9.301965897613341,
+      "lon": 13.406379959892833,
+      "ville": "Garoua",
+      "telephone": "670 57 67 40",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE L'ETOILE22 27 13 77Garoua:",
+      "lat": 9.297654678471075,
+      "lon": 13.406583676841432,
+      "ville": "Garoua",
+      "telephone": "",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE L'AMITIE",
+      "lat": 9.29338856384453,
+      "lon": 13.40438472144104,
+      "ville": "Garoua",
+      "telephone": "222 27 25 86",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CARREFOUR BARMARI 77 92 54 15 Garoua:",
+      "lat": 9.290510082537395,
+      "lon": 13.399952320088659,
+      "ville": "Garoua",
+      "telephone": "",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE GAROUA 22 27 24 78 Garoua:",
+      "lat": 9.29016251975251,
+      "lon": 13.394190601267725,
+      "ville": "Garoua",
+      "telephone": "",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE TOUBORO 699 36 92Touboro:",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Touboro",
+      "telephone": "",
+      "adresse": "",
+      "region": "Nord",
+      "source": "website_only"
+    },
+    {
+      "nom": "CORPORATE PHARMACY",
+      "lat": 5.9577,
+      "lon": 10.1582,
+      "ville": "Bamenda",
+      "telephone": "222 27 56 97",
+      "adresse": "33 09 54 56",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "FAMILY PHARMACY",
+      "lat": 5.957965495371342,
+      "lon": 10.161076553231625,
+      "ville": "Bamenda",
+      "telephone": "233 36 24 26",
+      "adresse": "699 87 50 69",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "GRACE PHARMACY LIMITED",
+      "lat": 5.9564821161410775,
+      "lon": 10.164090296893656,
+      "ville": "Bamenda",
+      "telephone": "673 47 01 81",
+      "adresse": "",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "KAREM PHARMACY",
+      "lat": 5.953265897613342,
+      "lon": 10.166179959892833,
+      "ville": "Bamenda",
+      "telephone": "233 36 30 09",
+      "adresse": "695 26 52 59",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "MEZAM PHARMACY",
+      "lat": 5.948954678471075,
+      "lon": 10.166383676841432,
+      "ville": "Bamenda",
+      "telephone": "233 36 22 08",
+      "adresse": "677 76 90 99",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "MILLENIUM PHARMACY",
+      "lat": 5.94468856384453,
+      "lon": 10.16418472144104,
+      "ville": "Bamenda",
+      "telephone": "233 36 37 49",
+      "adresse": "677 64 59 60",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "NOBLE PHARMACY 33 05 23 95 Bamenda:",
+      "lat": 5.941810082537395,
+      "lon": 10.159752320088659,
+      "ville": "Bamenda",
+      "telephone": "",
+      "adresse": "",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PARK PHARMACY",
+      "lat": 5.941462519752511,
+      "lon": 10.153990601267726,
+      "ville": "Bamenda",
+      "telephone": "233 36 37 12",
+      "adresse": "699 37 62 05",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE AMEN",
+      "lat": 5.944202632928773,
+      "lon": 10.148361567560997,
+      "ville": "Bamenda",
+      "telephone": "233 36 11 85",
+      "adresse": "677 54 41 61",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE ANDREG PHARMACY",
+      "lat": 5.949748858807969,
+      "lon": 10.14451457835269,
+      "ville": "Bamenda",
+      "telephone": "233 36 23 31",
+      "adresse": "677 64 71 99",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE BLACK STAR",
+      "lat": 5.956954932781948,
+      "lon": 10.143816135880053,
+      "ville": "Bamenda",
+      "telephone": "233 36 12 04",
+      "adresse": "677 96 46 79",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CITY CHEMIST",
+      "lat": 5.96403871638866,
+      "lon": 10.146911354790875,
+      "ville": "Bamenda",
+      "telephone": "233 36 11 34",
+      "adresse": "677 76 47 96",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CRYSTAL PHARMACY",
+      "lat": 5.969022894873056,
+      "lon": 10.153449936530619,
+      "ville": "Bamenda",
+      "telephone": "233 36 21 55",
+      "adresse": "677 76 05 08",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PROFESSIONAL PLAZA",
+      "lat": 5.970278577263104,
+      "lon": 10.162072159785582,
+      "ville": "Bamenda",
+      "telephone": "233 36 33 20",
+      "adresse": "677 75 55 73",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE SAN PAOLO",
+      "lat": 5.967024142832523,
+      "lon": 10.170682745375657,
+      "ville": "Bamenda",
+      "telephone": "233 36 29 31",
+      "adresse": "677 32 21 93",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "VILEN PHARMACY",
+      "lat": 5.9596327063567,
+      "lon": 10.176959999535496,
+      "ville": "Bamenda",
+      "telephone": "233 36 26 73",
+      "adresse": "677 54 41 77",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "LIBERTY PHARMACY",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mbengwy",
+      "telephone": "222 27 56 97",
+      "adresse": "677 68 41 52",
+      "region": "Nord-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE ANDRE DJONGOUE",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Bafang",
+      "telephone": "233 48 69 51",
+      "adresse": "699 58 01 25",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU MARCHE BAFANG",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Bafang",
+      "telephone": "233 48 65 28",
+      "adresse": "699 28 35 73",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE MOUANKEU",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Bafang",
+      "telephone": "233 48 70 56",
+      "adresse": "699 81 78 75",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "NOUVELLE PHARMACIE DU BENIN",
+      "lat": 5.4787,
+      "lon": 10.4179,
+      "ville": "Bafoussam",
+      "telephone": "233 44 15 57",
+      "adresse": "Carrefour Auberge",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE ANGE GABRIEL",
+      "lat": 5.478965495371342,
+      "lon": 10.420776553231624,
+      "ville": "Bafoussam",
+      "telephone": "233 44 18 33",
+      "adresse": "Feu Rouge",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA MIFI",
+      "lat": 5.477482116141077,
+      "lon": 10.423790296893655,
+      "ville": "Bafoussam",
+      "telephone": "233 44 11 63",
+      "adresse": "Carrefour TOTAL 677 75 09 38",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA VISION",
+      "lat": 5.474265897613342,
+      "lon": 10.425879959892832,
+      "ville": "Bafoussam",
+      "telephone": "233 44 63 15",
+      "adresse": "Sens Interdit 699 51 25 16",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA DIGNITÉ",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Bagangte",
+      "telephone": "233 48 91 27",
+      "adresse": "677 74 25 63",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE LE VRAI MEDICAMENT",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Bandja",
+      "telephone": "677 65 92 62",
+      "adresse": "",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU KOUNG-KHI",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Bandjoun",
+      "telephone": "699 78 41 98",
+      "adresse": "",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE NEW TODJOM",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Bandjoun",
+      "telephone": "699 82 11 12",
+      "adresse": "",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LA MENOUA",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Dschang",
+      "telephone": "233 45 11 93",
+      "adresse": "677 77 15 95",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DE LAH",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Dschang",
+      "telephone": "233 45 12 79",
+      "adresse": "677 81 20 85",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE PERVENCHE PLUS",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Dschang",
+      "telephone": "233 45 17 39",
+      "adresse": "",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE CENTRALE",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Foumban",
+      "telephone": "699 45 19 44",
+      "adresse": "",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE GRENIER/REPUBLIQUE",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Foumbot",
+      "telephone": "233 44 63 56",
+      "adresse": "699 66 46 91",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU BIEN ETRE PLUS",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mbouda",
+      "telephone": "696 92 72 22",
+      "adresse": "699 66 46 91",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE TOP ETOILE",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Mbouda",
+      "telephone": "233 48 51 19",
+      "adresse": "699 98 82 36",
+      "region": "Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE D'AMBAM",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Ambam",
+      "telephone": "699 78 25 75",
+      "adresse": "",
+      "region": "Sud",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE KYE OSSI 3 NATIONS",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Ambam",
+      "telephone": "656 20 40 30",
+      "adresse": "",
+      "region": "Sud",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE ROSA PARK",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Sangmelima",
+      "telephone": "222 47 90 51",
+      "adresse": "Sangmelina",
+      "region": "Sud",
+      "source": "website_only"
+    },
+    {
+      "nom": "AMAZING PHARMACY SARL",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Buea",
+      "telephone": "233 32 32 24",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "COMPASSIONATE HEALTH PHARMACY",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Buea",
+      "telephone": "233 32 25 66",
+      "adresse": "678 77 24 34",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "ENAMEN PHARMACY",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Buea",
+      "telephone": "233 32 20 11",
+      "adresse": "677 31 73 63",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "MOUNTAIN II PHARMACY",
+      "lat": 3.8485658976133417,
+      "lon": 11.510079959892833,
+      "ville": "Buea",
+      "telephone": "233 32 25 46",
+      "adresse": "243 18 42 72",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE SALVATION 33 32 25 45 Buea: 33 32 30 88",
+      "lat": 3.8442546784710756,
+      "lon": 11.510283676841432,
+      "ville": "Buea",
+      "telephone": "",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "WINNER'S PHARMACY 33 32 33 98 Buea:",
+      "lat": 3.8399885638445306,
+      "lon": 11.50808472144104,
+      "ville": "Buea",
+      "telephone": "",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "CENTRAL PHARMACY",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Kumba",
+      "telephone": "677 30 19 26",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "KUMBA CITY PHARMACY LTD",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Kumba",
+      "telephone": "233 35 45 82",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PREMIER PHARMACY",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Kumba",
+      "telephone": "233 35 42 47",
+      "adresse": "Face Weekend Bar 677 54 73 87",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "CORE PHARMACY",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Likomba",
+      "telephone": "233 35 16 09",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "DESTINY PHARMACY",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Limbe",
+      "telephone": "233 61 24 64",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "LIMBE PHARMACY LTD Mile One",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Limbe",
+      "telephone": "233 33 21 97",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "MEDICINE SHOPPE PHARMACY",
+      "lat": 3.851782116141077,
+      "lon": 11.507990296893656,
+      "ville": "Limbe",
+      "telephone": "233 33 30 73",
+      "adresse": "679 67 75 57",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE FRIVERALIN",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Mutengene",
+      "telephone": "699 98 35 05",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "MIDLAND PHARMACY",
+      "lat": 3.8529999999999998,
+      "lon": 11.5021,
+      "ville": "Muyuka",
+      "telephone": "670 53 18 60",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    },
+    {
+      "nom": "PHARMACIE DU SOURIRE",
+      "lat": 3.853265495371342,
+      "lon": 11.504976553231625,
+      "ville": "Muyuka",
+      "telephone": "699 81 46 35",
+      "adresse": "",
+      "region": "Sud-Ouest",
+      "source": "website_only"
+    }
+  ]
+}

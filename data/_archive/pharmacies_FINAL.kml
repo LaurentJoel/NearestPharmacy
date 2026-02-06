@@ -1,0 +1,5436 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pharmacies Cameroun - COMPLETE (555)</name>
+    <Style id="osmStyle">
+      <IconStyle>
+        <color>ff00ff00</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/pharmacy.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="mergedStyle">
+      <IconStyle>
+        <color>ff00ffff</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/pharmacy.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="websiteStyle">
+      <IconStyle>
+        <color>ff0080ff</color>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/pharmacy.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Inconnu (380)</name>
+      <Placemark>
+        <name>Pharmacie Akwa-Nord</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7168246,4.0733526,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmarcie de la cité des palmiers</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7616632,4.0528334,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Samba</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.1488866,2.910287,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Bell</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6941275,4.0358998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.6783245,9.4920073,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Hôpital de District d'Okola</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.382813,4.0266935,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5019631,9.3863872,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4370021,5.9866642,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faith pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4346599,5.9874847,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4414882,5.9962855,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Joss</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6870513,4.0421376,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Olezoa</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5148132,3.846497,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Nkomo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.550225,3.8416617,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Tsinga</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5027686,3.8818777,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mami Macta</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5346161,3.8712872,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy de l'Université</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5045728,3.8594758,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Moisson</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5211667,3.8604354,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mvog-Atangana Mballa</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5192943,3.8488518,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Aéroport</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5167072,3.8253653,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Moto George</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5179934,3.889256,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Stade</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5452392,3.8891163,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4989103,3.8528552,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Djamboutou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3967556,9.3042325,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Garoua</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3964666,9.3072574,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Amitié</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3964911,9.3030541,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Etoile</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3889622,9.2966502,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Jireh</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5936877,3.9672671,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nouvelle Pharmacie du Bénin</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4130095,5.4808768,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Martin</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5181947,3.8647393,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Lyonnaise</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4970116,3.8760709,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Amazing Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2881471,4.1562157,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grosmelf Lab</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2896447,4.1548001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy Enamen</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2825108,4.1593564,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2911344,4.1550198,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.252612,4.1535901,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salvation Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2603165,4.1544231,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Winner's Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2574073,4.1539871,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6996547,4.0268919,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Ketchy Madagascar</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4926597,3.8828222,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Biyem-assi Dr Tchachou Joseph</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4849664,3.8372952,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7030721,4.0517203,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Rive</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7126033,4.0678133,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.4866242,4.7483988,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Lamarine</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7060059,4.0634896,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pharmacie de la fidelite</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5050912,3.8722691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la patience</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7471699,4.0811236,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie notre dame des victoire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7650562,4.0869821,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie KD</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7091293,4.0668533,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deido Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.713034,4.0608221,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie La Coupole</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.71441,4.0636394,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Lilias</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7261406,4.0698331,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Palmier</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6866806,4.0447129,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pinpoh pharmaciy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4010447,5.8425896,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7763742,4.0512813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy de Ndog-passi axe-lourd</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7549902,4.0048605,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>People's pharmacy PK 8</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7594862,4.047254,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Vita</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7627081,4.0361231,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Les Merveilles</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7453275,4.041466,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy la Vita Nyalla</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7835023,4.0337102,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy ESSEC</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7359075,4.0532982,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Djakoume Phamacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7278217,4.0585048,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy Gabriel</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7248179,4.0597963,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy Sante pour tous</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7194109,4.0520481,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Grace</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6685079,4.0725379,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>louxia pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7895344,4.0310398,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.2589328,5.6265722,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.8974652,5.730071,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.9003082,5.7310691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.678046,4.5750531,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie PK8</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7536397,4.0462689,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taf pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2065219,4.0152025,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Limbe Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2081498,4.0194024,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la liberté</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5799773,3.8527373,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Ste Madeleine</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5857939,3.8618534,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Makepe</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7552636,4.0848383,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6581492,4.0940179,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Nouvelle</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6944746,4.0483093,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamacie de l'Amour</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6510038,4.0957729,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Côte</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6934536,4.0404472,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.1298213,3.8000946,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Jouvence</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.698209,4.0507694,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MINDILI</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5364405,3.8245838,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7344726,4.7209867,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Colombe</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5357759,3.8849544,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Africa Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6474628,4.0945104,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamacie Bayard</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5461689,3.9024161,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Oxygène</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5849246,7.3256641,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5878684,7.3188924,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie 2000</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5079212,3.8857174,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4928374,3.8718871,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Al Cnar</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.0283757,12.1116037,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prestige Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.441044,4.6344068,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5204614,3.9272773,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharlacie du campus</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.547933,7.4114884,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wisdom Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.4425948,4.6301602,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie EMIA</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5017314,3.8626834,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mandela</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4972547,3.8641188,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie MESSA</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.504311,3.8722314,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Providence</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5031764,3.8733533,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4917086,3.856051,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Gare</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5871131,7.333106,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie le Saare</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5832497,7.3268497,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Oxygene</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.585692,7.3264088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Beka-hossere</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5506028,7.311846,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de L'enttente</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5851314,7.3190732,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de La Vina</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5826483,7.3215403,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Coop Univers</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5743036,7.2940144,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Awal</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5899123,7.3191906,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Garou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5878922,7.3191263,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Ngaha Clovis</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5927438,7.3197974,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Bonamoussadi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7356592,4.0868264,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Bonamoussadi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7373708,4.0919031,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Bethesda</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4885805,3.8323132,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Française</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.519731,3.8636485,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Intendance</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5203653,3.8662978,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du bien-être</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5241352,3.87467,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Mfoundi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5237932,3.8712767,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Vallée</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5241083,3.8643429,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Grande Pharmacie des Lumiéres</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5185535,3.8849407,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Verset</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5065654,3.8767252,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Congrès</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5027104,3.8869725,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Bastos</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5120273,3.8920938,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie de la Gare</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.0500801,5.4402491,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie du Marché</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.0535936,5.4426714,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grande pharmacie Lah</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.0561683,5.4462702,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie de la Menoua</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.0600194,5.4478425,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie de l'Unité</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.0692694,5.4582812,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie Départementale</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.0674435,5.452106,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharamacie de Bertoua</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.6827337,4.5756739,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Douala</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6992217,4.0458593,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la trinite</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.700579,4.0543108,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Carrefour Z</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7495663,4.0545973,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sotownek</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4854108,3.8690857,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Saint Uriel</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5399297,3.831293,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Jade</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3891945,9.2967464,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3904216,9.2996415,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mere D'enfants Ni</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3925284,9.3037535,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Veterinaire Cema Vs Sarl</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3953641,9.3066683,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sodiprovet Sarl Pharmacie Veterinaire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.395963,9.3058088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Du Lamidat Dr Souleymanou Saly</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3982345,9.3059256,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Md Vet Distribution Des Medicament Veterinaire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3964018,9.3027124,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie De La Persévérance</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3995927,9.2978343,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fondation Médicale Adluchem Pharmacie Centrale Entenne De Garoua</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.4059221,9.3347384,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Barka</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3990798,9.3071764,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Du Grand Marché</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3995071,9.3078875,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.6165881,9.9660425,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5213877,9.9848965,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.5204853,9.9849668,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Idenau pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>8.9923125,4.2038695,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Enamen pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2825413,4.158921,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friveralin pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.3162779,4.0902089,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thé glory pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.3574244,4.0840503,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Faith standard pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.3695028,4.0699974,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rapha pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2010324,4.0147677,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2090642,4.0176847,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prime pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2090347,4.014957,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2077166,4.0126867,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grace standart pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2161205,4.0116002,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Herbal pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2175219,4.0123845,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capha Vet Sarl Pharmacie Vétérinaires</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5342397,3.8864393,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4506443,3.9005657,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Du Bleu</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4506189,3.880537,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4607343,3.889715,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4549969,3.8972828,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Renaissance</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4679932,3.8825423,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie d'Oyom-Abang</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4754035,3.8750506,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5447866,3.8890955,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5462451,3.9024474,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Capha Vet Sarl Pharmacie Vétérinaires</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5342397,3.886491,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Sante</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5322239,3.8724589,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Montesquieu (espace Conseils)</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5249993,3.8625442,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr.iguedo's Goko</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5399355,3.8722753,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mvog Ada</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5277271,3.8643785,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie De L'arche</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5295865,3.8663421,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Le Bon Berger</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5388462,3.8813214,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie De La Rosée</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5568303,3.9002316,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de La Chapelle</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5497167,3.8988401,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Le Cygne</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5303784,3.8618149,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Complexe Miss Ngou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5583002,3.8878926,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie De La Cité</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5517932,3.8851982,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Médicament Vétérinaire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5277825,3.8689175,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Lycée Bilingue</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5496417,3.8785935,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie Athera</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5474852,3.8867912,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pro-pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5665114,3.9071578,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santé St Victor</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5616834,3.9128037,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Médecine Naturelle De Maman Nettoyage</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.56052,3.924255,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Pont</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6828074,4.0708559,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Bonambappe</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6760028,4.0738794,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie La Référence</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5490815,3.8941583,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>new todjon</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4148181,5.3729973,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>koung khi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4126455,5.3717708,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Statoise</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5278381,3.8449852,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'étoile</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4816492,3.8387131,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Jérusalem</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4768711,3.8403714,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7153533,4.0422412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nouveau pharmacie d'Akwa</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6983813,4.0463672,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Medecine chinoise</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.912396,2.9276332,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'atlantique</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.9136025,2.940137,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie De La Gloire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.9132842,2.9465013,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Siloë</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.482124,3.8489637,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.550909,3.830191,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie urbaine</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5192009,3.8679438,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Bonapriso</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6987122,4.0245088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.548783,3.8671906,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la gloire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.9128562,2.9450528,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Nations</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5216344,3.887733,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olembé Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5334315,3.9569055,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie 3A</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4707056,3.8276107,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Simbock</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4718734,3.8212364,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie d'Edea</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.1307904,3.7969696,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Efoulan</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5068517,3.8356646,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pharmacie banka</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.1912603,5.1627255,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Rapido Fiango</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.448743,4.6390629,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Messamendongo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5225284,3.7966201,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Élite</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4893178,3.8639878,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie La Destinée</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.1667841,2.914639,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Equaser</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.149987,2.9229009,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.1507781,2.9021995,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Tabita</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5147121,3.5275258,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pro Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4971182,3.8511459,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5017427,3.5164171,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.7179619,7.1449671,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Saint Bernadette</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4990238,3.8528423,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grande Cœur Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7588481,4.0669048,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie d'Ahala</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4899437,3.7946619,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Botanik</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5729856,3.8611662,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Nsam</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5076691,3.8251092,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Lekie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5286715,4.1671035,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Yassa</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.8027194,3.9996216,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Concorde</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.738054,4.0839733,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Royale</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.70398,4.0272689,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie les Pétales</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5156414,3.8692647,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Sion</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5173643,3.8652662,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Sept Collines</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4960491,3.8671308,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Logbaba</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7667239,4.0322434,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Logpom</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7705,4.08279,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Nkozoa</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5407427,3.9653961,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5937195,3.9672653,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pharmacie jireh</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5933834,3.9673911,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Sipen</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7253427,4.0326219,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Shell</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7421991,4.0087858,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Get Better</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.480823,3.8524808,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Priorité Santé</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5568189,3.8835471,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie les manguiers</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5316515,3.8985052,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Sésames</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4841477,3.8772569,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Brique</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5120364,3.8760773,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cousin Castor</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5311049,3.8697335,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Rosée</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5343846,3.8704082,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quifferou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5315165,3.8683616,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Saint-Luc</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5319933,3.8680767,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du 20 Mai</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5194778,3.8627988,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Universite</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5044198,3.8595544,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5224716,3.8572465,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Theriaque</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5358543,3.8522755,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Capucines</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5215103,3.8493537,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Ekounou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5399051,3.8439552,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Ekounou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5405234,3.8440469,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Hakkore</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.536017,3.8435794,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Sim Ba'a</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4793414,3.828305,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ananaraie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5364517,3.8338107,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie caméric</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4012493,3.7890339,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Grâce</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4709087,3.8316173,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Royale</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4707698,3.8317579,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jouvence</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4820326,3.8300171,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Jouvance</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4849434,3.8352357,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Nkoldongo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5272655,3.8560185,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Star</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5240268,3.8538515,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Odza</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5303141,3.8075445,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Nkomo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5451299,3.8449966,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parapharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5329287,3.8783805,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie 2000</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5146666,3.8895156,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Balance</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5370343,3.8617127,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Buvole Abondo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4927156,3.8892827,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Emmanuel</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.508359,3.8797062,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Moliva</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4947821,3.8779385,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mongale</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4923311,3.8862089,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Notre-Dame</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5026391,3.8855856,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie d'Étondi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5234718,3.9164405,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Tongolo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.52501,3.9068149,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Hortensia</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5065239,3.8814503,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Château</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5446105,3.8636263,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Palais</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.525617,3.9145154,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Soleil</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5171518,3.8671196,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Concorde</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5226326,3.8918053,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Flêche</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5491529,3.8675074,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie le Cristallis</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5234988,3.8819156,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie École de Police</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5105848,3.8784154,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Élobi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5010669,3.8778123,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Aumachae</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5528177,3.8688083,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5273189,3.8678805,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5520333,3.8684399,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arab Contractor Residence</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5225598,3.9321663,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Béatitudes</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4927971,3.8458393,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAI</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5255722,3.9099995,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CYFO</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5400263,3.8105093,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Du Cypres</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4549636,3.872903,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>François Tchoupou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5534379,3.8593653,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lido</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5309413,3.8701728,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lienou</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5556369,3.8594935,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Obili</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4934746,3.8512057,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Nsimeyong</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4944118,3.8352367,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Melen</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.486577,3.8504058,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>le Flamboyant</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4872997,3.8435064,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.3994978,9.3078104,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6465418,4.094415,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Providence</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6650832,4.0872769,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6600721,4.0922235,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nkomba Mambanda Phamarcy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6679655,4.071182,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.66971,4.0806422,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6932503,4.0252922,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6982997,4.0246026,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laborex</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7012446,4.0520791,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7128524,4.0680215,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Gabriel</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7244152,4.0594944,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacy Cosmos Sante</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7322225,4.0461071,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de salen</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7369068,4.0984116,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Rocher</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7408878,4.0486982,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7467279,4.081422,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7495265,4.0931686,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Kotto</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7496647,4.0917918,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie La Shekinah</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7619248,4.0022331,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de La République PK14</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7934699,4.0782897,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Bafia</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.2250904,4.7421709,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie AIDA</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.2251908,4.7432912,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pro-pharmacie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>12.3186904,5.5409983,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rainbow Chemist Limited</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2078312,4.0127722,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Limbe Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.2090926,4.0206382,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desteny Pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.209618,4.0217739,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la grace</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4228954,5.4801771,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la vision</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4161428,5.4800769,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie pierre Moyo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4189688,5.4781648,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Benin</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4135681,5.4800181,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nouvele Pharmacie du Benin</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4136871,5.4798952,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Acacias</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.4879527,3.8412473,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie SALVIA</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4056805,5.4894513,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Marché B</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4091119,5.4859965,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La référence Boîte à Pharmacie du Marche du MIL</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.030934,12.070828,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Al Salama</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.0280881,12.0872325,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Al Maraz</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.0260294,12.0847548,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Association Sociale pour la Réadaptation et le sions de Jeunes</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.0260409,12.0753169,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Quartier</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.0344122,12.078113,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Association Sociale pour la Réadaptation et le Sions de Jeunes</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>15.0296266,12.0780847,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INDUSTRIES CHIMIQUES ET FABRICATION DE PRODUITS CHIMIQUES</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.1781865,3.9867326,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Ndobo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6430018,4.0943965,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UBI PHARM</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5099728,3.8171268,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CARREFOUR PK11</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7767535,4.0510887,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UBI PHARM</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7359066,4.0343732,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie XAVYO</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5200944,3.8546978,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Camerounaise</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5214425,3.862906,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Olympique</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7022587,4.0599154,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de domayo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>14.3106417,10.5911831,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Sahel</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>14.3305074,10.5953292,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Masseboeuf</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>14.3258706,10.6050154,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de lextrème nord</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>14.3291326,10.6033749,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Maroua</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>14.3361618,10.6013264,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamarcie du Secours</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4214663,5.4703727,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Noubissi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4212428,5.4717794,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Madelon</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4243995,5.4635963,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Sainte Monique</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4277697,5.4618517,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Noubissi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4215761,5.4719666,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Pierre Moyo</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4189548,5.4782911,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la Grâce</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4232115,5.4802001,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Polypharma</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4251086,5.4806769,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Nectar</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>10.4377372,5.4844189,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Kaélé</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>14.4474219,10.1095197,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Phamacie de l'Horizon</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7293575,4.0660691,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Gloire</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.9132896,2.9464895,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>medecine shoppe pharmacy</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.1968695,4.0220445,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie La Concorde</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.6989115,4.0550517,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Harmonie</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7200695,4.0828583,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mondial</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7103307,4.0579721,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Hopitaux</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>9.7011281,4.0486785,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de Messassi</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5190906,3.9422455,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pharmacie1</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.7208068,7.1420166,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pharmacie2</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>13.7210077,7.1421728,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie La santé</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>12.2468556,3.7740864,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Référence de Ngousso</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5491697,3.8943449,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de l'Unité</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5216897,3.8588385,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Bleue</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5422648,3.9076768,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mvog-Ada</name>
+        <description>Ville: Inconnu
+Source: osm</description>
+        <styleUrl>#osmStyle</styleUrl>
+        <Point>
+          <coordinates>11.5278059,3.8643582,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Garoua (18)</name>
+      <Placemark>
+        <name>Pharmacie Populaire</name>
+        <description>Ville: Garoua
+Tel: 222 27 25 11
+Adresse: 699 86 97 20
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.4043696,9.3168363,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Provinciale</name>
+        <description>Ville: Garoua
+Tel: 677 64 18 56
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5159436,3.8795091,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Populaire</name>
+        <description>Ville: Garoua
+Tel: 222 27 25 11
+Adresse: 699 86 97 20
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5400568,3.8736658,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie De La Grande Mosquée</name>
+        <description>Ville: Garoua
+Tel: 222 27 27 04
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.4112141,9.3300166,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Provinciale</name>
+        <description>Ville: Garoua
+Tel: 677 64 18 56
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.4057598,9.3188883,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Populaire</name>
+        <description>Ville: Garoua
+Tel: 222 27 25 11
+Adresse: 699 86 97 20
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.4008138,9.3122831,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Assalam</name>
+        <description>Ville: Garoua
+Tel: 242 17 12 79
+Adresse: 677 18 53 97
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.4024969,9.3075596,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Grande Mosquée</name>
+        <description>Ville: Garoua
+Tel: 222 27 27 04
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.411216,9.3299898,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Provinciale</name>
+        <description>Ville: Garoua
+Tel: 677 64 18 56
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.4006208,9.303648,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Nord</name>
+        <description>Ville: Garoua
+Tel: 222 27 13 79
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.3904095,9.2996212,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE MERE D'ENFANT2</name>
+        <description>Ville: Garoua
+Tel: 698 48 72 00
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.3984,9.3064,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU LAMIDAT</name>
+        <description>Ville: Garoua
+Tel: 222 27 22 61
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.401276553231625,9.306665495371341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU CENTRE GAROUA22 27 33 10Garoua:</name>
+        <description>Ville: Garoua
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.404290296893656,9.305182116141076,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE NGONG</name>
+        <description>Ville: Garoua
+Tel: 670 57 67 40
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.406379959892833,9.301965897613341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE L'ETOILE22 27 13 77Garoua:</name>
+        <description>Ville: Garoua
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.406583676841432,9.297654678471075,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE L'AMITIE</name>
+        <description>Ville: Garoua
+Tel: 222 27 25 86
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.40438472144104,9.29338856384453,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CARREFOUR BARMARI 77 92 54 15 Garoua:</name>
+        <description>Ville: Garoua
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.399952320088659,9.290510082537395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE GAROUA 22 27 24 78 Garoua:</name>
+        <description>Ville: Garoua
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.394190601267725,9.29016251975251,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bamenda (16)</name>
+      <Placemark>
+        <name>CORPORATE PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 222 27 56 97
+Adresse: 33 09 54 56
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.1582,5.9577,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FAMILY PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 24 26
+Adresse: 699 87 50 69
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.161076553231625,5.957965495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRACE PHARMACY LIMITED</name>
+        <description>Ville: Bamenda
+Tel: 673 47 01 81
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.164090296893656,5.9564821161410775,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KAREM PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 30 09
+Adresse: 695 26 52 59
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.166179959892833,5.953265897613342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MEZAM PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 22 08
+Adresse: 677 76 90 99
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.166383676841432,5.948954678471075,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MILLENIUM PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 37 49
+Adresse: 677 64 59 60
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.16418472144104,5.94468856384453,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NOBLE PHARMACY 33 05 23 95 Bamenda:</name>
+        <description>Ville: Bamenda
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.159752320088659,5.941810082537395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PARK PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 37 12
+Adresse: 699 37 62 05
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.153990601267726,5.941462519752511,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE AMEN</name>
+        <description>Ville: Bamenda
+Tel: 233 36 11 85
+Adresse: 677 54 41 61
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.148361567560997,5.944202632928773,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE ANDREG PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 23 31
+Adresse: 677 64 71 99
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.14451457835269,5.949748858807969,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE BLACK STAR</name>
+        <description>Ville: Bamenda
+Tel: 233 36 12 04
+Adresse: 677 96 46 79
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.143816135880053,5.956954932781948,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CITY CHEMIST</name>
+        <description>Ville: Bamenda
+Tel: 233 36 11 34
+Adresse: 677 76 47 96
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.146911354790875,5.96403871638866,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CRYSTAL PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 21 55
+Adresse: 677 76 05 08
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.153449936530619,5.969022894873056,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE PROFESSIONAL PLAZA</name>
+        <description>Ville: Bamenda
+Tel: 233 36 33 20
+Adresse: 677 75 55 73
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.162072159785582,5.970278577263104,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE SAN PAOLO</name>
+        <description>Ville: Bamenda
+Tel: 233 36 29 31
+Adresse: 677 32 21 93
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.170682745375657,5.967024142832523,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILEN PHARMACY</name>
+        <description>Ville: Bamenda
+Tel: 233 36 26 73
+Adresse: 677 54 41 77
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.176959999535496,5.9596327063567,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Yaounde (15)</name>
+      <Placemark>
+        <name>Pharmacie Isis</name>
+        <description>Ville: Yaounde
+Tel: 222 23 35 78
+Adresse: EMOMBO 2ème CARREFOUR
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5483223,3.8642524,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Marijova</name>
+        <description>Ville: Yaounde
+Tel: 699 98 86 83
+Adresse: Entrée CARREFOUR MECC
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.4816399,3.8703088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Jourdain</name>
+        <description>Ville: Yaounde
+Tel: 242 02 60 30
+Adresse: Immeuble MACABO - NKOMKANA 222 22 28 63
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.4977339,3.8847155,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE PALAIS</name>
+        <description>Ville: Yaounde
+Tel: 691 54 16 18
+Adresse: ETOUDI STATIONNEMENT
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE ACACIAS</name>
+        <description>Ville: Yaounde
+Tel: 699 61 96 54
+Adresse: BIYEM-ASSI CENTRE
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE D'ODZA</name>
+        <description>Ville: Yaounde
+Tel: 222 30 51 33
+Adresse: Carrefour MBOG-ABANG 697 99 85 90
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WORLD PHARMACY</name>
+        <description>Ville: Yaounde
+Tel: 670 11 60 14
+Adresse: CAMP SIC NLONGKAK 693 96 42 34
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.510079959892833,3.8485658976133417,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE PETALES</name>
+        <description>Ville: Yaounde
+Tel: 222 23 15 97
+Adresse: vers LE CAPITOLE
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.510283676841432,3.8442546784710756,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nasturtium Pharmacy</name>
+        <description>Ville: Yaounde
+Tel: 242 66 63 05
+Adresse: Siantou Supérieur699 83 81 06
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.50808472144104,3.8399885638445306,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE PERSEVERANCE</name>
+        <description>Ville: Yaounde
+Tel: 243 84 41 35
+Adresse: AWAE ESCALIER 243 84 67 75
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.503652320088658,3.837110082537395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE HERMES</name>
+        <description>Ville: Yaounde
+Tel: 243 64 11 81
+Adresse: Face BOULANGERIE NEZATI_EMANA 677 98 70 75
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.497890601267725,3.83676251975251,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE LA VIE</name>
+        <description>Ville: Yaounde
+Tel: 222 22 67 87
+Adresse: face FOKOU MOKOLO
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.492261567560996,3.839502632928773,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE MINKAN</name>
+        <description>Ville: Yaounde
+Tel: 673 49 07 17
+Adresse: Carrefour JESUS 697 24 77 75
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.488414578352689,3.845048858807969,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE LEADER</name>
+        <description>Ville: Yaounde
+Tel: 694 04 21 88
+Adresse: à côté de la BGFI BANK, Omnisports
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.487716135880053,3.8522549327819484,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHEKEM PHARMACY</name>
+        <description>Ville: Yaounde
+Tel: 672 51 89 19
+Adresse: face SUN CITY - ESSOS
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.490811354790875,3.85933871638866,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Douala (13)</name>
+      <Placemark>
+        <name>Pharmacie Axiale</name>
+        <description>Ville: Douala
+Tel: 233 41 39 39
+Adresse: Axe lourd BEPANDA 674 14 57 57
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.718707,4.0707651,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST. JOSEF PHARMACY</name>
+        <description>Ville: Douala
+Tel: 699 10 48 18
+Adresse: LOGBESSOU SISTERS' HOP STREET
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.7679,4.0561,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE LA TRINITE</name>
+        <description>Ville: Douala
+Tel: 233 42 46 44
+Adresse: RUE JAMOT CLINIQUE DU BERCEAU
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.770776553231624,4.056365495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CARREFOUR ANATOLE</name>
+        <description>Ville: Douala
+Tel: 233128697
+Adresse: TOTAL ANATOLE BALI
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.773790296893655,4.054882116141077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE NJO NJO</name>
+        <description>Ville: Douala
+Tel: 233423925
+Adresse: AVENUE NJO NJO
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.775879959892832,4.051665897613342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE SHEKINA</name>
+        <description>Ville: Douala
+Tel: 699 60 88 41
+Adresse: ENTREE LYCEE NDOGPASSI
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.77608367684143,4.047354678471075,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>010PHARMACIE ARC</name>
+        <description>Ville: Douala
+Tel: 233 42 60 30
+Adresse: POLYCLINIQUE D'AKWA
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.77388472144104,4.04308856384453,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU MARCHE</name>
+        <description>Ville: Douala
+Tel: 233 42 64 57
+Adresse: A COTE COMMISSARIAT MADAGASCAR
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.769452320088657,4.040210082537395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CITE DES PALMIERS</name>
+        <description>Ville: Douala
+Tel: 233372484
+Adresse: CITE DES PALMIERS
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.763690601267724,4.039862519752511,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE BONAMOUSSADI</name>
+        <description>Ville: Douala
+Tel: 233 47 24 81
+Adresse: ROND POINT MAETUR FACE ECOBANK
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.758061567560995,4.042602632928773,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE NOTRE DAME DES VICTOIRES 243 064 244Douala: Carrefour WILLIAMS ANDEM</name>
+        <description>Ville: Douala
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.754214578352688,4.048148858807969,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DES IMMEUBLES</name>
+        <description>Ville: Douala
+Tel: 652 52 38 24
+Adresse: TRADEX KOTTO IMMEUBLE BAR
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.753516135880052,4.055354932781948,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE SASS</name>
+        <description>Ville: Douala
+Tel: 233 02 87 43
+Adresse: Bapenda Omnisport
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>9.756611354790873,4.06243871638866,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Maroua (11)</name>
+      <Placemark>
+        <name>Pharmacie du Boulevard</name>
+        <description>Ville: Maroua
+Tel: 222 29 32 31
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.7938086,4.0229747,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Ferngo</name>
+        <description>Ville: Maroua
+Tel: 222 29 15 43
+Adresse: Quartier Kakatare
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>14.3148331,10.5945889,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Boulevard</name>
+        <description>Ville: Maroua
+Tel: 222 29 32 31
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>14.3218412,10.5941316,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie EMERAUDE</name>
+        <description>Ville: Maroua
+Tel: 696 29 73 96
+Adresse: Quartier Kakatare
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>14.3215949,10.6013586,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie EMERAUDE</name>
+        <description>Ville: Maroua
+Tel: 696 29 73 96
+Adresse: Quartier Kakatare
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>14.3214742,10.6009259,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie KALIAO</name>
+        <description>Ville: Maroua
+Tel: 222 29 32 59
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>14.3177771,10.5997372,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE EXTREME NORD22 29 12 40Maroua: Quartier Kakatare</name>
+        <description>Ville: Maroua
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>14.3159,10.6006,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU SAHEL22 29 16 56Maroua:</name>
+        <description>Ville: Maroua
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>14.318776553231624,10.600865495371341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU CENTRE MAROUA</name>
+        <description>Ville: Maroua
+Tel: 222 29 12 09
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>14.321790296893655,10.599382116141076,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE MAROUA6</name>
+        <description>Ville: Maroua
+Tel: 222 29 33 14
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>14.323879959892832,10.596165897613341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DOMAYO SARL</name>
+        <description>Ville: Maroua
+Tel: 699 59 84 83
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>14.32408367684143,10.591854678471075,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bafoussam (9)</name>
+      <Placemark>
+        <name>Pharmacie des Martyrs</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 66 80
+Adresse: Carrefour BIAO 699 92 57 69
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.415214,5.4785929,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie BINAM</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 32 31
+Adresse: Route Foumban
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.4291904,5.4827335,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Martyrs</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 66 80
+Adresse: Carrefour BIAO 699 92 57 69
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.416742,5.4777978,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie des Montagnes</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 44 56
+Adresse: Face UCCAO 699 99 41 94
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.4187008,5.4761661,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Amienoise</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 51 10
+Adresse: Place des Fêtes
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.4174216,5.470068,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NOUVELLE PHARMACIE DU BENIN</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 15 57
+Adresse: Carrefour Auberge
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.4179,5.4787,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE ANGE GABRIEL</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 18 33
+Adresse: Feu Rouge
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.420776553231624,5.478965495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE LA MIFI</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 11 63
+Adresse: Carrefour TOTAL 677 75 09 38
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.423790296893655,5.477482116141077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE LA VISION</name>
+        <description>Ville: Bafoussam
+Tel: 233 44 63 15
+Adresse: Sens Interdit 699 51 25 16
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>10.425879959892832,5.474265897613342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Dschang (9)</name>
+      <Placemark>
+        <name>Pharmacie du Centre</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 94
+Adresse: 699 98 98 86
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.6941258,4.0475907,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Centre</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 94
+Adresse: 699 98 98 86
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5179547,3.8710132,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du centre</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 94
+Adresse: 699 98 98 86
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.3951274,9.3064553,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Centre</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 94
+Adresse: 699 98 98 86
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.0554768,5.444414,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Centre</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 94
+Adresse: 699 98 98 86
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>14.3343796,10.605619,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Centre</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 94
+Adresse: 699 98 98 86
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.7219542,4.0569621,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE LA MENOUA</name>
+        <description>Ville: Dschang
+Tel: 233 45 11 93
+Adresse: 677 77 15 95
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE LAH</name>
+        <description>Ville: Dschang
+Tel: 233 45 12 79
+Adresse: 677 81 20 85
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE PERVENCHE PLUS</name>
+        <description>Ville: Dschang
+Tel: 233 45 17 39
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bertoua (7)</name>
+      <Placemark>
+        <name>Pharmacie la Générale</name>
+        <description>Ville: Bertoua
+Tel: 222 24 21 24
+Adresse: Derrière Radio AURORE699 53 70 46
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.6818732,4.5746379,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Mokolo</name>
+        <description>Ville: Bertoua
+Tel: 222 24 21 24
+Adresse: Derrière Radio AURORE : 699 53 70 46
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.6841366,4.579299,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Galien</name>
+        <description>Ville: Bertoua
+Tel: 222 24 14 16
+Adresse: Face Légion de Gendarmerie677 89 57 58
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.686422,4.5774887,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie la générale</name>
+        <description>Ville: Bertoua
+Tel: 222 24 21 24
+Adresse: Derrière Radio AURORE699 53 70 46
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.6809435,4.5751983,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE LA GLOIRE</name>
+        <description>Ville: Bertoua
+Tel: 222 12 47 48
+Adresse: À coté du SENAJES, quartier TINDAMBA6222 24 23 23
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.6847,4.5822,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE STELLA</name>
+        <description>Ville: Bertoua
+Tel: 222 24 23 37
+Adresse: Quartier BAVELE6677 42 93 49
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.687576553231624,4.582465495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE LE BRUXELLOIS</name>
+        <description>Ville: Bertoua
+Tel: 222 24 17 17
+Adresse: Face Délégation du Travail696 39 93 23
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.690590296893655,4.580982116141078,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ngaoundere (7)</name>
+      <Placemark>
+        <name>Pharmacie Adama</name>
+        <description>Ville: Ngaoundere
+Tel: 242 25 24 64
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.5751594,7.3210125,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de L'esperance</name>
+        <description>Ville: Ngaoundere
+Tel: 222 25 11 76
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>13.5790409,7.3211319,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE CARREFOUR AOUDI</name>
+        <description>Ville: Ngaoundere
+Tel: 233 08 08 48
+Adresse: 677 71 64 93
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.5833,7.3217,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE L'ENTENTE22 19 80 51Ngaoundéré:</name>
+        <description>Ville: Ngaoundere
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.586176553231624,7.321965495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE LA GARE NGAOUNDERE</name>
+        <description>Ville: Ngaoundere
+Tel: 222 25 16 88
+Adresse: 694 01 01 45
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.589190296893655,7.320482116141077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE GRAND MARCHE NGAOUNDERE22 15 78 44Ngaoundéré:</name>
+        <description>Ville: Ngaoundere
+Tel: 699 10 05 54
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.591279959892832,7.317265897613342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE LA VINA</name>
+        <description>Ville: Ngaoundere
+Tel: 222 25 14 68
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>13.591483676841431,7.312954678471075,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Buea (6)</name>
+      <Placemark>
+        <name>AMAZING PHARMACY SARL</name>
+        <description>Ville: Buea
+Tel: 233 32 32 24
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COMPASSIONATE HEALTH PHARMACY</name>
+        <description>Ville: Buea
+Tel: 233 32 25 66
+Adresse: 678 77 24 34
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ENAMEN PHARMACY</name>
+        <description>Ville: Buea
+Tel: 233 32 20 11
+Adresse: 677 31 73 63
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MOUNTAIN II PHARMACY</name>
+        <description>Ville: Buea
+Tel: 233 32 25 46
+Adresse: 243 18 42 72
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.510079959892833,3.8485658976133417,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE SALVATION 33 32 25 45 Buea: 33 32 30 88</name>
+        <description>Ville: Buea
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.510283676841432,3.8442546784710756,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WINNER'S PHARMACY 33 32 33 98 Buea:</name>
+        <description>Ville: Buea
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.50808472144104,3.8399885638445306,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Limbe (6)</name>
+      <Placemark>
+        <name>Fako Atlantic Pharmacy</name>
+        <description>Ville: Limbe
+Tel: 233 33 26 30
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.2076329,4.0110907,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fako Atlantic pharmacy</name>
+        <description>Ville: Limbe
+Tel: 233 33 26 30
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.2075151,4.0111107,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prime Pharmacy</name>
+        <description>Ville: Limbe
+Tel: 233 33 29 28
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>9.2089792,4.0150393,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DESTINY PHARMACY</name>
+        <description>Ville: Limbe
+Tel: 233 61 24 64
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LIMBE PHARMACY LTD Mile One</name>
+        <description>Ville: Limbe
+Tel: 233 33 21 97
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MEDICINE SHOPPE PHARMACY</name>
+        <description>Ville: Limbe
+Tel: 233 33 30 73
+Adresse: 679 67 75 57
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Nkongsamba (4)</name>
+      <Placemark>
+        <name>PHARMACIE PRINCIPALE</name>
+        <description>Ville: Nkongsamba
+Tel: 233 49 12 11
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE MANENGOUBA33 49 16 15Nkongsamba:</name>
+        <description>Ville: Nkongsamba
+Tel: 233 49 30 03
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU TEMPLE33 49 16 15Nkongsamba:</name>
+        <description>Ville: Nkongsamba
+Tel: 674 45 85 73
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PACIFIC PHARMACY33 49 24 26Nkongsamba:</name>
+        <description>Ville: Nkongsamba
+Tel: 677 70 26 31
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.510079959892833,3.8485658976133417,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bafang (3)</name>
+      <Placemark>
+        <name>PHARMACIE ANDRE DJONGOUE</name>
+        <description>Ville: Bafang
+Tel: 233 48 69 51
+Adresse: 699 58 01 25
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU MARCHE BAFANG</name>
+        <description>Ville: Bafang
+Tel: 233 48 65 28
+Adresse: 699 28 35 73
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE MOUANKEU</name>
+        <description>Ville: Bafang
+Tel: 233 48 70 56
+Adresse: 699 81 78 75
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Edea (3)</name>
+      <Placemark>
+        <name>Pharmacie Ambre</name>
+        <description>Ville: Edea
+Tel: 222 04 01 44
+Adresse: EDEA
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.1294123,3.7984985,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE ARC EN CIEL</name>
+        <description>Ville: Edea
+Tel: 233 46 41 32
+Adresse: EDEA657 699 94 83
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU PEUPLE</name>
+        <description>Ville: Edea
+Tel: 233 14 61 79
+Adresse: EDEA
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kumba (3)</name>
+      <Placemark>
+        <name>CENTRAL PHARMACY</name>
+        <description>Ville: Kumba
+Tel: 677 30 19 26
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KUMBA CITY PHARMACY LTD</name>
+        <description>Ville: Kumba
+Tel: 233 35 45 82
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PREMIER PHARMACY</name>
+        <description>Ville: Kumba
+Tel: 233 35 42 47
+Adresse: Face Weekend Bar 677 54 73 87
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.507990296893656,3.851782116141077,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mbalmayo (3)</name>
+      <Placemark>
+        <name>Pharmacie Vimli</name>
+        <description>Ville: Mbalmayo
+Tel: 222 04 85 38
+Adresse: Mbalmayo
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5053473,3.5208244,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE NYONG</name>
+        <description>Ville: Mbalmayo
+Tel: 697 40 54 36
+Adresse: Mbalmayo
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE PATIENCE</name>
+        <description>Ville: Mbalmayo
+Tel: 222 28 17 56
+Adresse: Mbalmayo
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Obala (3)</name>
+      <Placemark>
+        <name>Afamba</name>
+        <description>Ville: Obala
+Tel: 222 20 68 48
+Adresse: NOUVELLE GESTION
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5351055,4.1663908,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie Saint Thomas</name>
+        <description>Ville: Obala
+Tel: 699 68 59 35
+Adresse: Obala
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.5342753,4.1651556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE D'OBALA</name>
+        <description>Ville: Obala
+Tel: 222 28 56 78
+Adresse: Obala 677 63 98 26
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ambam (2)</name>
+      <Placemark>
+        <name>PHARMACIE D'AMBAM</name>
+        <description>Ville: Ambam
+Tel: 699 78 25 75
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE KYE OSSI 3 NATIONS</name>
+        <description>Ville: Ambam
+Tel: 656 20 40 30
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bafia (2)</name>
+      <Placemark>
+        <name>PHARMACIE AIDA 22 28 57 70 BAFIA</name>
+        <description>Ville: Bafia
+Tel: 674 14 57 57
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE BASIA</name>
+        <description>Ville: Bafia
+Tel: 222 28 54 04
+Adresse: BAFIA
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bandjoun (2)</name>
+      <Placemark>
+        <name>PHARMACIE DU KOUNG-KHI</name>
+        <description>Ville: Bandjoun
+Tel: 699 78 41 98
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE NEW TODJOM</name>
+        <description>Ville: Bandjoun
+Tel: 699 82 11 12
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ebolowa (2)</name>
+      <Placemark>
+        <name>Pharmacie de la Mvila</name>
+        <description>Ville: Ebolowa
+Tel: 222 28 49 10
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.1516224,2.9190833,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie du Bercail</name>
+        <description>Ville: Ebolowa
+Tel: 222 00 87 37
+Adresse: 222 66 08 99
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.1505664,2.9208897,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Kousseri (2)</name>
+      <Placemark>
+        <name>PHARMACIE QUSSUR</name>
+        <description>Ville: Kousseri
+Tel: 675 08 69 08
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU CHARI</name>
+        <description>Ville: Kousseri
+Tel: 222 29 40 80
+Adresse: 675 25 43 01
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mbanga (2)</name>
+      <Placemark>
+        <name>PHARMACIE NOVA MACK</name>
+        <description>Ville: Mbanga
+Tel: 243 77 46 95
+Adresse: 677 66 73 37
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DE MBANGA33 49 16 15Mbanga:</name>
+        <description>Ville: Mbanga
+Tel: 699 75 47 55
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mbouda (2)</name>
+      <Placemark>
+        <name>PHARMACIE DU BIEN ETRE PLUS</name>
+        <description>Ville: Mbouda
+Tel: 696 92 72 22
+Adresse: 699 66 46 91
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE TOP ETOILE</name>
+        <description>Ville: Mbouda
+Tel: 233 48 51 19
+Adresse: 699 98 82 36
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Muyuka (2)</name>
+      <Placemark>
+        <name>MIDLAND PHARMACY</name>
+        <description>Ville: Muyuka
+Tel: 670 53 18 60
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU SOURIRE</name>
+        <description>Ville: Muyuka
+Tel: 699 81 46 35
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.504976553231625,3.853265495371342,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sa A (2)</name>
+      <Placemark>
+        <name>Pharmacie de Sa'a</name>
+        <description>Ville: Sa A
+Tel: 222 28 58 77
+Adresse: Sa'a
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.4399521,4.3623152,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pharmacie de la Renaissance</name>
+        <description>Ville: Sa A
+Tel: 677 98 20 76
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>11.1549474,2.923978,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Yagoua (2)</name>
+      <Placemark>
+        <name>Pharmacie du Mayo Danay</name>
+        <description>Ville: Yagoua
+Tel: 222 29 65 20
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>15.2307747,10.3431214,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PHARMACIE DU BON SECOURS</name>
+        <description>Ville: Yagoua
+Tel: 222 20 25 19
+Adresse: 677 73 68 82
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bagangte (1)</name>
+      <Placemark>
+        <name>PHARMACIE DE LA DIGNITÉ</name>
+        <description>Ville: Bagangte
+Tel: 233 48 91 27
+Adresse: 677 74 25 63
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bandja (1)</name>
+      <Placemark>
+        <name>PHARMACIE LE VRAI MEDICAMENT</name>
+        <description>Ville: Bandja
+Tel: 677 65 92 62
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Banyo (1)</name>
+      <Placemark>
+        <name>PHARMACIE DU MAYO BANYO</name>
+        <description>Ville: Banyo
+Tel: 699 52 24 77
+Adresse: 695 20 97 01
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Batouri (1)</name>
+      <Placemark>
+        <name>ORIENT PHARMACY</name>
+        <description>Ville: Batouri
+Tel: 242 63 56 33
+Adresse: :
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Figuil (1)</name>
+      <Placemark>
+        <name>PHARMACIE DU CARREFOUR</name>
+        <description>Ville: Figuil
+Tel: 222 27 56 97
+Adresse: 679 62 14 30
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Foumban (1)</name>
+      <Placemark>
+        <name>PHARMACIE CENTRALE</name>
+        <description>Ville: Foumban
+Tel: 699 45 19 44
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Foumbot (1)</name>
+      <Placemark>
+        <name>PHARMACIE GRENIER/REPUBLIQUE</name>
+        <description>Ville: Foumbot
+Tel: 233 44 63 56
+Adresse: 699 66 46 91
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Garoua Boulai (1)</name>
+      <Placemark>
+        <name>PHARMACIE DE LA FRONTIÈRE</name>
+        <description>Ville: Garoua Boulai
+Tel: 699 22 32 99
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Guider (1)</name>
+      <Placemark>
+        <name>Pharmacie De L'espoir</name>
+        <description>Ville: Guider
+Tel: 222 27 50 49
+Source: merged</description>
+        <styleUrl>#mergedStyle</styleUrl>
+        <Point>
+          <coordinates>10.5208055,5.1421589,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Likomba (1)</name>
+      <Placemark>
+        <name>CORE PHARMACY</name>
+        <description>Ville: Likomba
+Tel: 233 35 16 09
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Loum (1)</name>
+      <Placemark>
+        <name>PHARMACIE DE LOUM</name>
+        <description>Ville: Loum
+Tel: 233 49 35 45
+Adresse: 699 53 27 91
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Maga (1)</name>
+      <Placemark>
+        <name>PHARMACIE DE MAGA</name>
+        <description>Ville: Maga
+Tel: 699 51 90 59
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mbandjock (1)</name>
+      <Placemark>
+        <name>PHARMACIE CANNES</name>
+        <description>Ville: Mbandjock
+Tel: 222 23 68 30
+Adresse: Mbandjock
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mbankomo (1)</name>
+      <Placemark>
+        <name>PHARMACIE CAMERIC</name>
+        <description>Ville: Mbankomo
+Tel: 679 79 50 79
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mbengwy (1)</name>
+      <Placemark>
+        <name>LIBERTY PHARMACY</name>
+        <description>Ville: Mbengwy
+Tel: 222 27 56 97
+Adresse: 677 68 41 52
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Melong (1)</name>
+      <Placemark>
+        <name>PHARMACIE DE MELONGMelong:</name>
+        <description>Ville: Melong
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Mutengene (1)</name>
+      <Placemark>
+        <name>PHARMACIE FRIVERALIN</name>
+        <description>Ville: Mutengene
+Tel: 699 98 35 05
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Sangmelima (1)</name>
+      <Placemark>
+        <name>PHARMACIE ROSA PARK</name>
+        <description>Ville: Sangmelima
+Tel: 222 47 90 51
+Adresse: Sangmelina
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Touboro (1)</name>
+      <Placemark>
+        <name>PHARMACIE DE TOUBORO 699 36 92Touboro:</name>
+        <description>Ville: Touboro
+Source: website_only</description>
+        <styleUrl>#websiteStyle</styleUrl>
+        <Point>
+          <coordinates>11.5021,3.8529999999999998,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
