@@ -17,11 +17,11 @@ User's GPS Position → API Request → PostGIS Query → Nearest Pharmacies de 
 
 ## Data Sources
 
-| Data | Source | Update Frequency |
-|------|--------|------------------|
+| Data               | Source                           | Update Frequency          |
+| ------------------ | -------------------------------- | ------------------------- |
 | Pharmacy Locations | OpenStreetMap / Google Earth Pro | One-time + manual updates |
-| Duty Schedules | annuaire-medical.cm scraping | Daily |
-| User Position | Mobile app GPS | Real-time |
+| Duty Schedules     | annuaire-medical.cm scraping     | Daily                     |
+| User Position      | Mobile app GPS                   | Real-time                 |
 
 ## Setup
 
@@ -63,6 +63,7 @@ Find pharmacies on duty near a location.
 | date | string | No | Date YYYY-MM-DD (default: today) |
 
 **Example:**
+
 ```bash
 curl "http://localhost:5000/api/pharmacies/nearby?lat=3.848&lon=11.502&distance_m=10000"
 ```
