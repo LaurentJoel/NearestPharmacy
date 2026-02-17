@@ -186,50 +186,91 @@ class AutoDailyScraper:
         
         pharmacies = []
         
-        # Find carousel items (each contains pharmacie info)
-        carousel_items = soup.find_all('div', class_='carousel-item')
+        # Find pharmacy entries — site uses both 'ligne_pers' and 'pharma_line' classes
+        pharmacy_divs = soup.find_all('div', class_=['ligne_pers', 'pharma_line'])
         
-        for item in carousel_items:
-            text = item.get_text(separator='\n', strip=True)
-            lines = text.split('\n')
-            
-            for line in lines:
-                line = line.strip()
-                # Skip non-pharmacy lines
-                if not line.upper().startswith('PHARMACIE') and not line.upper().startswith('PHARMACY'):
+        if pharmacy_divs:
+            for item in pharmacy_divs:
+                strong = item.find('strong')
+                if not strong:
+                    continue
+                nom = strong.get_text(strip=True)
+                # Match any entry containing "pharmacie" or "pharmacy" anywhere in the name
+                nom_upper = nom.upper()
+                if 'PHARMACIE' not in nom_upper and 'PHARMACY' not in nom_upper:
                     continue
                 
-                pharmacy = self.parse_pharmacy_line(line, city)
+                # Get full text: "NAME | PHONE | CITY: ADDRESS | PHONE2"
+                full_text = item.get_text(separator=' | ', strip=True)
+                pharmacy = self.parse_pharmacy_line(full_text, city)
                 if pharmacy:
                     pharmacies.append(pharmacy)
+        else:
+            # Fallback: try carousel items (legacy site structure)
+            carousel_items = soup.find_all('div', class_='carousel-item')
+            for item in carousel_items:
+                text = item.get_text(separator='\n', strip=True)
+                lines = text.split('\n')
+                for line in lines:
+                    line = line.strip()
+                    if not line.upper().startswith('PHARMACIE') and not line.upper().startswith('PHARMACY'):
+                        continue
+                    pharmacy = self.parse_pharmacy_line(line, city)
+                    if pharmacy:
+                        pharmacies.append(pharmacy)
         
         return pharmacies
     
     def parse_pharmacy_line(self, line, city):
-        """Parse a pharmacy line from the website."""
+        """Parse a pharmacy line from the website.
+        
+        Handles pipe-separated format: "NAME | PHONE | CITY: ADDRESS | PHONE2"
+        Also handles legacy inline format: "NAME PHONE CITY: ADDRESS"
+        """
         try:
-            # Extract phone number (pattern: XXX XX XX XX)
+            # Phone pattern: 3 digits then 2-digit groups (e.g. 234 89 72 04 or 655 43 96 62)
             phone_pattern = r'(\d{3}\s*\d{2}\s*\d{2}\s*\d{2})'
-            phone_match = re.search(phone_pattern, line)
             
-            if phone_match:
-                phone = phone_match.group(1).strip()
-                phone_idx = line.find(phone)
-                nom = line[:phone_idx].strip()
-                remaining = line[phone_idx + len(phone):].strip()
-                
-                # Extract address (after "City:")
-                if ':' in remaining:
-                    adresse = remaining.split(':', 1)[1].strip()
-                else:
-                    adresse = remaining
-            else:
-                nom = line.split(':')[0].strip() if ':' in line else line.strip()
+            # If pipe-separated, split into parts
+            if ' | ' in line:
+                parts = [p.strip() for p in line.split(' | ')]
+                nom = parts[0]
                 phone = ''
                 adresse = ''
+                
+                for part in parts[1:]:
+                    phone_match = re.match(phone_pattern, part)
+                    if phone_match and not phone:
+                        phone = phone_match.group(1).strip()
+                    elif ':' in part:
+                        # "Yaoundé: ADDRESS TEXT"
+                        adresse = part.split(':', 1)[1].strip()
+                    elif not phone:
+                        # Might be address without colon
+                        adresse = part
+            else:
+                # Legacy format: extract phone first, then name/address
+                phone_match = re.search(phone_pattern, line)
+                if phone_match:
+                    phone = phone_match.group(1).strip()
+                    phone_idx = line.find(phone)
+                    nom = line[:phone_idx].strip()
+                    remaining = line[phone_idx + len(phone):].strip()
+                    if ':' in remaining:
+                        adresse = remaining.split(':', 1)[1].strip()
+                    else:
+                        adresse = remaining
+                else:
+                    nom = line.split(':')[0].strip() if ':' in line else line.strip()
+                    phone = ''
+                    adresse = ''
             
-            # Clean name
+            # Clean name: remove trailing pipes/spaces
+            nom = re.sub(r'[\s|]+$', '', nom)
             nom = re.sub(r'\s+', ' ', nom).strip()
+            
+            if not nom:
+                return None
             
             # Normalize city name
             city_display = city.title().replace('-', ' ')
