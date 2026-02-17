@@ -94,25 +94,67 @@ def get_nearby_pharmacies():
         # 1. Infer User's City (to filter unmatched pharmacies)
         # We find the city of the nearest known pharmacy to the user
         
-        # Dictionary of coordinates for cities that might be missing from our DB
-        # This ensures we can still infer the user's city even if we have no matches there yet.
+        # Dictionary of coordinates for all Cameroon cities covered by the scraper.
+        # Used to infer the user's city when no nearby pharmacy is found in the DB.
         FALLBACK_CITY_COORDS = {
-            'Bandjoun': (5.35, 10.41),
-            'Bangangté': (5.14, 10.52),
-            'Bafang': (5.16, 10.18),
-            'Foumban': (5.72, 10.89),
-            'Foumbot': (5.51, 10.63),
-            'Obala': (4.17, 11.53),
-            'Mbalmayo': (3.51, 11.50),
-            'Bafia': (4.75, 11.23),
-            'Mbouda': (5.63, 10.25),
-            'Dschang': (5.45, 10.05),
-            'Nkongsamba': (4.95, 9.94),
-            'Kumba': (4.63, 9.45),
-            'Limbe': (4.01, 9.21),
-            'Buea': (4.15, 9.24),
-            'Tiko': (4.07, 9.36),
-            'Mutengene': (4.09, 9.31)
+            # Adamaoua
+            'Banyo':       (6.7500, 11.8167),
+            'Ngaoundéré':  (7.3167, 13.5833),
+            # Centre
+            'Bafia':       (4.7500, 11.2333),
+            'Mbalmayo':    (3.5167, 11.5000),
+            'Mbandjock':   (4.4500, 11.9000),
+            'Mbankomo':    (3.7833, 11.3833),
+            'Obala':       (4.1667, 11.5333),
+            'Sa A':        (4.3667, 11.4500),
+            'Yaoundé':     (3.8667, 11.5167),
+            # Est
+            'Abong-Mbang': (3.9833, 13.1833),
+            'Batouri':     (4.4333, 14.3667),
+            'Bertoua':     (4.5833, 13.6833),
+            'Garoua-Boulai': (5.8833, 14.5500),
+            # Extrême-Nord
+            'Kousseri':    (12.0767, 15.0306),
+            'Maga':        (10.8500, 14.9500),
+            'Maroua':      (10.5956, 14.3159),
+            'Yagoua':      (10.3417, 15.2333),
+            # Littoral
+            'Douala':      (4.0511, 9.7679),
+            'Edea':        (3.8000, 10.1333),
+            'Loum':        (4.7167, 9.7333),
+            'Mbanga':      (4.5000, 9.5667),
+            'Melong':      (5.1167, 9.9500),
+            'Nkongsamba':  (4.9500, 9.9333),
+            # Nord
+            'Figuil':      (9.7583, 13.9667),
+            'Garoua':      (9.3000, 13.3833),
+            'Guider':      (9.9333, 13.9500),
+            'Touboro':     (7.7667, 15.3667),
+            # Nord-Ouest
+            'Bamenda':     (5.9597, 10.1597),
+            'Mbengwy':     (6.1000, 10.0000),
+            # Ouest
+            'Bafang':      (5.1667, 10.1833),
+            'Bafoussam':   (5.4737, 10.4176),
+            'Bangangté':   (5.1500, 10.5333),
+            'Bandja':      (5.3333, 10.3667),
+            'Bandjoun':    (5.3667, 10.4167),
+            'Dschang':     (5.4500, 10.0500),
+            'Foumban':     (5.7167, 10.8833),
+            'Foumbot':     (5.5167, 10.6167),
+            'Mbouda':      (5.6333, 10.2500),
+            # Sud
+            'Ambam':       (2.3833, 11.2833),
+            'Ebolowa':     (2.9000, 11.1500),
+            'Kribi':       (2.9500, 9.9167),
+            'Sangmelima':  (2.9333, 11.9833),
+            # Sud-Ouest
+            'Buea':        (4.1597, 9.2311),
+            'Kumba':       (4.6333, 9.4500),
+            'Likomba':     (4.0833, 9.2667),
+            'Limbe':       (4.0167, 9.2000),
+            'Mutengene':   (4.0917, 9.3083),
+            'Muyuka':      (4.2833, 9.4167),
         }
         
         # Step A: Find nearest in DB
@@ -190,20 +232,28 @@ def get_nearby_pharmacies():
                 
                 -- 2. UNMATCHED PHARMACIES
                 -- Filter by inferred city to avoid showing irrelevant pharmacies
+                -- Use approx_lat/approx_lon for approximate positioning on map
                 SELECT 
                     NULL as id,
                     g.nom_scrape as nom,
                     g.quarter_scrape as adresse,
                     '' as telephone, 
-                    g.city_scrape as ville, -- Use scraped city
-                    NULL as latitude,
-                    NULL as longitude,
-                    NULL as distance_m,
+                    g.city_scrape as ville,
+                    g.approx_lat as latitude,
+                    g.approx_lon as longitude,
+                    CASE WHEN g.approx_lat IS NOT NULL AND g.approx_lon IS NOT NULL
+                        THEN ST_Distance(
+                            ST_SetSRID(ST_MakePoint(g.approx_lon, g.approx_lat), 4326)::geography,
+                            u.geom
+                        )
+                        ELSE NULL
+                    END as distance_m,
                     g.nom_scrape,
                     g.quarter_scrape,
                     'unmatched' as type
                 FROM 
                     {t_gardes} g
+                    CROSS JOIN user_location u
                 WHERE 
                     g.date_garde = %s
                     AND g.pharmacie_id IS NULL
@@ -247,7 +297,7 @@ def get_nearby_pharmacies():
                     'ville': row['ville'],
                     'latitude': row['latitude'],
                     'longitude': row['longitude'],
-                    'distance_m': round(dist_m, 2) if dist_m else None,
+                    'distance_m': round(dist_m, 2) if dist_m is not None else None,
                     'type': row['type'],
                     'nom_scrape': row['nom_scrape'],
                     'quarter_scrape': row['quarter_scrape']

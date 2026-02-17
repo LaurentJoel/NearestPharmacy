@@ -60,6 +60,9 @@ CREATE TABLE IF NOT EXISTS :resolved_schema.gardes (
     nom_scrape VARCHAR(255),
     quarter_scrape VARCHAR(255),
     city_scrape VARCHAR(100),
+    -- Approximate GPS for unmatched pharmacies (from city/quarter geocoding)
+    approx_lat DOUBLE PRECISION,
+    approx_lon DOUBLE PRECISION,
     -- Prevent duplicate entries for matched pharmacies
     UNIQUE(pharmacie_id, date_garde)
 );

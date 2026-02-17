@@ -93,6 +93,195 @@ class AutoDailyScraper:
         'sud-ouest': ['buea', 'kumba', 'likomba', 'limbe', 'mutengene', 'muyuka']
     }
     
+    # GPS coordinates for all scraped cities (lat, lon)
+    CITY_COORDS = {
+        # Adamaoua
+        'Banyo':           (6.7500, 11.8167),
+        'Ngaoundéré':      (7.3167, 13.5833),
+        # Centre
+        'Bafia':           (4.7500, 11.2333),
+        'Mbalmayo':        (3.5167, 11.5000),
+        'Mbandjock':       (4.4500, 11.9000),
+        'Mbankomo':        (3.7833, 11.3833),
+        'Obala':           (4.1667, 11.5333),
+        'Sa A':            (4.3667, 11.4500),
+        'Yaounde':         (3.8667, 11.5167),
+        # Est
+        'Abong Mbang':     (3.9833, 13.1833),
+        'Batouri':         (4.4333, 14.3667),
+        'Bertoua':         (4.5833, 13.6833),
+        'Garoua Boulai':   (5.8833, 14.5500),
+        # Extreme-Nord
+        'Kousseri':        (12.0767, 15.0306),
+        'Maga':            (10.8500, 14.9500),
+        'Maroua':          (10.5956, 14.3159),
+        'Yagoua':          (10.3417, 15.2333),
+        # Littoral
+        'Douala':          (4.0511, 9.7679),
+        'Edea':            (3.8000, 10.1333),
+        'Loum':            (4.7167, 9.7333),
+        'Mbanga':          (4.5000, 9.5667),
+        'Melong':          (5.1167, 9.9500),
+        'Nkongsamba':      (4.9500, 9.9333),
+        # Nord
+        'Figuil':          (9.7583, 13.9667),
+        'Garoua':          (9.3000, 13.3833),
+        'Guider':          (9.9333, 13.9500),
+        'Touboro':         (7.7667, 15.3667),
+        # Nord-Ouest
+        'Bamenda':         (5.9597, 10.1597),
+        'Mbengwy':         (6.1000, 10.0000),
+        # Ouest
+        'Bafang':          (5.1667, 10.1833),
+        'Bafoussam':       (5.4737, 10.4176),
+        'Bagangte':        (5.1500, 10.5333),
+        'Bandja':          (5.3333, 10.3667),
+        'Bandjoun':        (5.3667, 10.4167),
+        'Dschang':         (5.4500, 10.0500),
+        'Foumban':         (5.7167, 10.8833),
+        'Foumbot':         (5.5167, 10.6167),
+        'Mbouda':          (5.6333, 10.2500),
+        # Sud
+        'Ambam':           (2.3833, 11.2833),
+        'Ebolowa':         (2.9000, 11.1500),
+        'Kribi':           (2.9500, 9.9167),
+        'Sangmelima':      (2.9333, 11.9833),
+        # Sud-Ouest
+        'Buea':            (4.1597, 9.2311),
+        'Kumba':           (4.6333, 9.4500),
+        'Likomba':         (4.0833, 9.2667),
+        'Limbe':           (4.0167, 9.2000),
+        'Mutengene':       (4.0917, 9.3083),
+        'Muyuka':          (4.2833, 9.4167),
+    }
+    
+    # Known quarter/neighborhood GPS coordinates for major cities
+    # Used to more precisely locate pharmacies when quarter info is available
+    QUARTER_COORDS = {
+        'yaounde': {
+            # Central & popular quarters
+            'centre ville':      (3.8667, 11.5167),
+            'centre':            (3.8667, 11.5167),
+            'marche central':    (3.8660, 11.5183),
+            'poste centrale':    (3.8667, 11.5167),
+            'avenue kennedy':    (3.8667, 11.5150),
+            'hippodrome':        (3.8756, 11.5200),
+            'nlongkak':          (3.8800, 11.5167),
+            'bastos':            (3.8917, 11.5100),
+            'golf':              (3.8850, 11.5050),
+            'tsinga':            (3.8833, 11.5033),
+            'messa':             (3.8722, 11.5043),
+            'camp yeyap':        (3.8700, 11.5000),
+            'briqueterie':       (3.8761, 11.5120),
+            'mokolo':            (3.8750, 11.5100),
+            'mvog mbi':          (3.8600, 11.5250),
+            'mvog ada':          (3.8644, 11.5277),
+            'mvog atangana mballa': (3.8489, 11.5193),
+            'mvolyé':            (3.8550, 11.5017),
+            'nsimeyong':         (3.8352, 11.4944),
+            'nkoldongo':         (3.8560, 11.5273),
+            'essos':             (3.8737, 11.5403),
+            'omnisport':         (3.8833, 11.5433),
+            'omnisports':        (3.8833, 11.5433),
+            'mfandena':          (3.8800, 11.5350),
+            'biyem assi':        (3.8373, 11.4850),
+            'biyem-assi':        (3.8373, 11.4850),
+            'mendong':           (3.8400, 11.4700),
+            'simbock':           (3.8212, 11.4719),
+            'nkolbisson':        (3.8600, 11.4600),
+            'oyom abang':        (3.8751, 11.4754),
+            'etoudi':            (3.8950, 11.5250),
+            'olembe':            (3.9167, 11.5333),
+            'ngoussou':          (3.8943, 11.5492),
+            'ngousso':           (3.8943, 11.5492),
+            'chapelle ngousso':  (3.8943, 11.5492),
+            'ekounou':           (3.8440, 11.5405),
+            'ahala':             (3.7947, 11.4899),
+            'nsam':              (3.8251, 11.5077),
+            'obili':             (3.8512, 11.4935),
+            'melen':             (3.8504, 11.4866),
+            'efoulan':           (3.8357, 11.5069),
+            'elig edzoa':        (3.8867, 11.5282),
+            'madagascar':        (3.8828, 11.4927),
+            'awae escalier':     (3.8370, 11.5037),
+            'odza':              (3.8075, 11.5303),
+            'petit marche odza': (3.8075, 11.5303),
+            'tongolo':           (3.9068, 11.5251),
+            'kondengui':         (3.8650, 11.5380),
+            'etoa meki':         (3.8834, 11.5263),
+            'carrefour meec':    (3.8700, 11.4850),
+            'fokou etoudi':      (3.8950, 11.5250),
+            'olezoa':            (3.8465, 11.5148),
+            'mobil olezoa':      (3.8465, 11.5148),
+            'mimboman':          (3.8600, 11.5500),
+            'mimboman chapelle': (3.8600, 11.5500),
+            'cinema abbia':      (3.8671, 11.5170),
+            'nouvelle route omnisports': (3.8806, 11.5389),
+            'ecole de guerre':   (3.8212, 11.4719),
+            'face feicom':       (3.8600, 11.5500),
+            'carrefour amitie':  (3.8498, 11.5157),
+            'cite verte':        (3.8800, 11.4950),
+            'emana':             (3.9050, 11.5250),
+            'nkolmesseng':       (3.8450, 11.5150),
+            'ngoa ekele':        (3.8595, 11.5046),
+            'mvog betsi':        (3.8500, 11.5300),
+            'damas':             (3.8600, 11.5350),
+            'nkomo':             (3.8450, 11.5451),
+            'etoa':              (3.8834, 11.5263),
+            'obobogo':           (3.8300, 11.4900),
+            'mvan':              (3.8350, 11.5150),
+            'anguissa':          (3.8550, 11.5250),
+            'elig essono':       (3.8580, 11.5220),
+            'messa dead end':    (3.8722, 11.5043),
+            'nkomkana':          (3.8400, 11.5200),
+        },
+        'douala': {
+            'akwa':              (4.0500, 9.7000),
+            'akwa nord':         (4.0600, 9.7100),
+            'bonanjo':           (4.0400, 9.6900),
+            'bonapriso':         (4.0400, 9.7150),
+            'bali':              (4.0300, 9.6900),
+            'deido':             (4.0600, 9.7350),
+            'bonaberi':          (4.0700, 9.6700),
+            'ndokoti':           (4.0400, 9.7400),
+            'makepe':            (4.0650, 9.7550),
+            'kotto':             (4.0680, 9.7600),
+            'bonamoussadi':      (4.0750, 9.7450),
+            'logpom':            (4.0600, 9.7700),
+            'logbessou':         (4.0550, 9.7600),
+            'bepanda':           (4.0500, 9.7550),
+            'cite des palmiers': (4.0450, 9.7600),
+            'new bell':          (4.0350, 9.7300),
+            'village':           (4.0450, 9.7350),
+            'madagascar':        (4.0350, 9.7350),
+            'bassa':             (4.0250, 9.7500),
+            'pk8':               (4.0600, 9.7850),
+            'pk10':              (4.0700, 9.7950),
+            'pk12':              (4.0800, 9.8050),
+            'pk14':              (4.0900, 9.8150),
+            'yassa':             (4.0200, 9.7800),
+            'japoma':            (4.0100, 9.7700),
+            'nyalla':            (4.0100, 9.7800),
+            'omnisports':        (4.0300, 9.7600),
+            'bapenda':           (4.0200, 9.7000),
+        },
+    }
+    
+    # Default coordinates that indicate a pharmacy was never properly geocoded.
+    # These are Yaoundé-center defaults injected during original data import.
+    DEFAULT_COORDS = [
+        (3.8530, 11.5021),
+        (3.8533, 11.5050),
+        (3.8480, 11.5020),
+        (3.8518, 11.5080),
+        (3.8486, 11.5101),
+        (3.8443, 11.5103),
+        (3.8400, 11.5081),
+        (3.8371, 11.5037),
+        (3.8395, 11.4923),
+        (3.8450, 11.4884),
+    ]
+    
     def __init__(self, db_connection=None, db_config=None, schema='public'):
         """
         Initialize scraper.
@@ -146,7 +335,7 @@ class AutoDailyScraper:
         
         conn = self.get_db_connection()
         cursor = conn.cursor()
-        cursor.execute(f"SELECT id, nom, ville FROM {self._table('pharmacies')}")
+        cursor.execute(f"SELECT id, nom, ville, ST_Y(geom) as lat, ST_X(geom) as lon FROM {self._table('pharmacies')}")
         rows = cursor.fetchall()
         cursor.close()
         
@@ -156,11 +345,165 @@ class AutoDailyScraper:
                 'id': row[0],
                 'nom': row[1],
                 'ville': row[2],
+                'lat': row[3],
+                'lon': row[4],
                 'normalized': normalize_name(row[1]),
                 'key_words': get_key_words(row[1])
             })
         
         print(f"  Loaded {len(self._pharmacy_cache)} pharmacies from database")
+    
+    def _is_default_coord(self, lat, lon):
+        """Check if coordinates are one of the known default/placeholder values."""
+        for def_lat, def_lon in self.DEFAULT_COORDS:
+            if abs(lat - def_lat) < 0.001 and abs(lon - def_lon) < 0.001:
+                return True
+        return False
+    
+    def _get_city_key(self, city_name):
+        """Normalize city name to match CITY_COORDS keys."""
+        if not city_name:
+            return None
+        # Remove accents for matching
+        normalized = unicodedata.normalize('NFD', city_name)
+        normalized = ''.join(c for c in normalized if unicodedata.category(c) != 'Mn')
+        normalized = normalized.strip()
+        
+        # Try exact match first
+        for key in self.CITY_COORDS:
+            key_norm = unicodedata.normalize('NFD', key)
+            key_norm = ''.join(c for c in key_norm if unicodedata.category(c) != 'Mn')
+            if key_norm.lower() == normalized.lower():
+                return key
+        return None
+    
+    def geocode_quarter(self, city_name, quarter_text):
+        """
+        Try to find GPS coordinates from quarter/address text.
+        Returns (lat, lon) or None.
+        """
+        if not quarter_text:
+            return None
+        
+        # Normalize city name for quarter lookup
+        city_key = city_name.lower().strip() if city_name else ''
+        city_key = unicodedata.normalize('NFD', city_key)
+        city_key = ''.join(c for c in city_key if unicodedata.category(c) != 'Mn')
+        
+        if city_key not in self.QUARTER_COORDS:
+            return None
+        
+        quarters = self.QUARTER_COORDS[city_key]
+        
+        # Normalize the quarter text
+        qt = quarter_text.lower().strip()
+        qt = unicodedata.normalize('NFD', qt)
+        qt = ''.join(c for c in qt if unicodedata.category(c) != 'Mn')
+        
+        # Strategy 1: Direct match with a quarter name
+        for q_name, coords in quarters.items():
+            if q_name in qt or qt in q_name:
+                return coords
+        
+        # Strategy 2: Check each word in the quarter text against known quarters
+        qt_words = re.sub(r'[^\w\s]', ' ', qt).split()
+        for word in qt_words:
+            if len(word) < 4:
+                continue
+            for q_name, coords in quarters.items():
+                q_words = q_name.split()
+                for q_word in q_words:
+                    if len(q_word) < 4:
+                        continue
+                    if word == q_word:
+                        return coords
+        
+        return None
+    
+    def get_best_coordinates(self, city_name, quarter_text):
+        """
+        Get the best available GPS coordinates for a pharmacy.
+        Priority: quarter coords > city center coords > None.
+        Returns (lat, lon) or None.
+        """
+        # Try quarter-level precision first
+        quarter_coords = self.geocode_quarter(city_name, quarter_text)
+        if quarter_coords:
+            return quarter_coords
+        
+        # Fall back to city center
+        city_key = self._get_city_key(city_name)
+        if city_key:
+            return self.CITY_COORDS[city_key]
+        
+        return None
+    
+    def fix_pharmacy_coordinates(self, matched_entries):
+        """
+        Fix GPS coordinates for pharmacies that have default/placeholder coords.
+        Uses city and quarter data from scraping to relocate them.
+        
+        Args:
+            matched_entries: list of dicts with pharmacie_id, nom, adresse, ville
+        
+        Returns:
+            Number of pharmacies fixed
+        """
+        conn = self.get_db_connection()
+        cursor = conn.cursor()
+        fixed_count = 0
+        
+        for entry in matched_entries:
+            pharmacy_id = entry['pharmacie_id']
+            city_name = entry.get('ville', '')
+            quarter = entry.get('adresse', '')
+            
+            # Find this pharmacy in cache to check its current coords
+            db_pharm = None
+            for p in self._pharmacy_cache:
+                if p['id'] == pharmacy_id:
+                    db_pharm = p
+                    break
+            
+            if not db_pharm:
+                continue
+            
+            current_lat = db_pharm.get('lat', 0) or 0
+            current_lon = db_pharm.get('lon', 0) or 0
+            
+            # Only fix if the current coordinates are default/placeholder
+            if not self._is_default_coord(current_lat, current_lon):
+                continue
+            
+            # Get best coordinates from city/quarter
+            new_coords = self.get_best_coordinates(city_name, quarter)
+            if not new_coords:
+                continue
+            
+            new_lat, new_lon = new_coords
+            
+            # Also fix the ville if it's wrong (e.g., "Yaoundé" for a Kumba pharmacy)
+            city_key = self._get_city_key(city_name)
+            correct_ville = city_key if city_key else city_name
+            
+            cursor.execute(f"""
+                UPDATE {self._table('pharmacies')} 
+                SET geom = ST_SetSRID(ST_MakePoint(%s, %s), 4326),
+                    ville = %s,
+                    updated_at = NOW()
+                WHERE id = %s
+            """, (new_lon, new_lat, correct_ville, pharmacy_id))
+            
+            if cursor.rowcount > 0:
+                fixed_count += 1
+                # Update cache too
+                db_pharm['lat'] = new_lat
+                db_pharm['lon'] = new_lon
+                db_pharm['ville'] = correct_ville
+        
+        conn.commit()
+        cursor.close()
+        return fixed_count
     
     def get_city_url(self, region, city):
         """Generate URL for city garde page."""
@@ -392,6 +735,12 @@ class AutoDailyScraper:
         
         inserted = 0
         
+        # Clear old unmatched entries for this date (no UNIQUE constraint on NULL pharmacie_id)
+        cursor.execute(f"""
+            DELETE FROM {self._table('gardes')} 
+            WHERE date_garde = %s AND pharmacie_id IS NULL
+        """, (garde_date,))
+        
         # Insert matched pharmacies (with pharmacie_id)
         for entry in matched_entries:
             cursor.execute(f"""
@@ -413,11 +762,13 @@ class AutoDailyScraper:
             for entry in unmatched_entries:
                 cursor.execute(f"""
                     INSERT INTO {self._table('gardes')} 
-                        (pharmacie_id, date_garde, nom_scrape, quarter_scrape, city_scrape)
-                    VALUES (NULL, %s, %s, %s, %s)
+                        (pharmacie_id, date_garde, nom_scrape, quarter_scrape, city_scrape,
+                         approx_lat, approx_lon)
+                    VALUES (NULL, %s, %s, %s, %s, %s, %s)
                 """, (
                     garde_date,
-                    entry['nom'], entry.get('adresse', ''), entry.get('ville', '')
+                    entry['nom'], entry.get('adresse', ''), entry.get('ville', ''),
+                    entry.get('latitude'), entry.get('longitude')
                 ))
                 inserted += cursor.rowcount
         
@@ -488,6 +839,22 @@ class AutoDailyScraper:
             print("\n  Unmatched pharmacies (not in database):")
             for entry in unmatched_entries:
                 print(f"    - {entry['nom']} ({entry['ville']})")
+        
+        # Step 3.5: Fix mislocated pharmacy GPS coordinates
+        print("\n[Step 3.5] Fixing mislocated pharmacy coordinates...")
+        fixed = self.fix_pharmacy_coordinates(matched_entries)
+        print(f"  Fixed GPS for {fixed} pharmacies using city/quarter data")
+        
+        # Enrich unmatched entries with approximate coordinates
+        enriched = 0
+        for entry in unmatched_entries:
+            coords = self.get_best_coordinates(entry.get('ville', ''), entry.get('adresse', ''))
+            if coords:
+                entry['latitude'] = coords[0]
+                entry['longitude'] = coords[1]
+                enriched += 1
+        if enriched:
+            print(f"  Enriched {enriched} unmatched pharmacies with approximate coordinates")
         
         # Step 4: Insert gardes
         print("\n[Step 4] Inserting today's gardes...")
