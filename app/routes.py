@@ -5,8 +5,19 @@ All SQL queries use schema-qualified table names for integration support.
 """
 from flask import Blueprint, request, jsonify
 from datetime import date
+import unicodedata
 from .database import get_db_cursor, test_connection, qualified_table
 from . import get_module_config
+
+
+def normalize_city(name):
+    """Strip accents and lowercase for accent-insensitive city comparison."""
+    if not name:
+        return ''
+    name = name.lower().strip()
+    name = unicodedata.normalize('NFD', name)
+    name = ''.join(c for c in name if unicodedata.category(c) != 'Mn')
+    return name
 
 api_bp = Blueprint('pharmacy_api', __name__)
 
@@ -152,6 +163,8 @@ def get_nearby_pharmacies():
             )
             SELECT * FROM (
                 -- 1. MATCHED PHARMACIES
+                -- Filter by city_scrape to exclude pharmacies with wrong GPS
+                -- (some pharmacies from other cities have default Yaoundé coords)
                 SELECT 
                     p.id,
                     p.nom,
@@ -171,6 +184,7 @@ def get_nearby_pharmacies():
                 WHERE 
                     g.date_garde = %s
                     AND ST_DWithin(p.geom::geography, u.geom, %s)
+                    AND (%s IS NULL OR lower(g.city_scrape) = %s)
                 
                 UNION ALL
                 
@@ -193,7 +207,7 @@ def get_nearby_pharmacies():
                 WHERE 
                     g.date_garde = %s
                     AND g.pharmacie_id IS NULL
-                    AND (%s IS NULL OR g.city_scrape ILIKE %s) -- Filter by city
+                    AND (%s IS NULL OR lower(g.city_scrape) = %s) -- Filter by city (normalized)
             ) combined_results
             ORDER BY 
                 CASE WHEN distance_m IS NULL THEN 1 ELSE 0 END, -- Matched first
@@ -207,14 +221,18 @@ def get_nearby_pharmacies():
             # 2. user_lat (Point)
             # 3. date (Matched)
             # 4. radius (Matched)
-            # 5. date (Unmatched)
-            # 6. inferred_city (Unmatched Filter IS NULL check)
-            # 7. inferred_city (Unmatched Filter ILIKE)
+            # 5. normalized_city IS NULL check (Matched city filter)
+            # 6. normalized_city (Matched city filter)
+            # 7. date (Unmatched)
+            # 8. normalized_city IS NULL check (Unmatched Filter)
+            # 9. normalized_city (Unmatched Filter)
+            normalized_inferred = normalize_city(inferred_city) if inferred_city else None
             cursor.execute(sql_query, (
                 user_lon, user_lat, 
-                date_str, distance_m, 
+                date_str, distance_m,
+                normalized_inferred, normalized_inferred,
                 date_str, 
-                inferred_city, inferred_city
+                normalized_inferred, normalized_inferred
             ))
             rows = cursor.fetchall()
             
