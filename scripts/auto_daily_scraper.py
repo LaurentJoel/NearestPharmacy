@@ -376,8 +376,14 @@ class AutoDailyScraper:
         print(f"  Deleted {deleted} old garde entries (before {date.today()})")
         return deleted
     
-    def insert_gardes(self, matched_pharmacies, garde_date=None):
-        """Insert matched pharmacies into gardes table."""
+    def insert_gardes(self, matched_entries, unmatched_entries=None, garde_date=None):
+        """Insert scraped pharmacies into gardes table.
+        
+        Args:
+            matched_entries: list of dicts with keys: pharmacie_id, nom, adresse, ville
+            unmatched_entries: list of dicts with keys: nom, adresse, ville (no DB match)
+            garde_date: date for the garde (default: today)
+        """
         if garde_date is None:
             garde_date = date.today()
         
@@ -385,13 +391,35 @@ class AutoDailyScraper:
         cursor = conn.cursor()
         
         inserted = 0
-        for pharmacy_id in matched_pharmacies:
+        
+        # Insert matched pharmacies (with pharmacie_id)
+        for entry in matched_entries:
             cursor.execute(f"""
-                INSERT INTO {self._table('gardes')} (pharmacie_id, date_garde)
-                VALUES (%s, %s)
-                ON CONFLICT (pharmacie_id, date_garde) DO NOTHING
-            """, (pharmacy_id, garde_date))
+                INSERT INTO {self._table('gardes')} 
+                    (pharmacie_id, date_garde, nom_scrape, quarter_scrape, city_scrape)
+                VALUES (%s, %s, %s, %s, %s)
+                ON CONFLICT (pharmacie_id, date_garde) DO UPDATE
+                    SET nom_scrape = EXCLUDED.nom_scrape,
+                        quarter_scrape = EXCLUDED.quarter_scrape,
+                        city_scrape = EXCLUDED.city_scrape
+            """, (
+                entry['pharmacie_id'], garde_date,
+                entry['nom'], entry.get('adresse', ''), entry.get('ville', '')
+            ))
             inserted += cursor.rowcount
+        
+        # Insert unmatched pharmacies (no pharmacie_id)
+        if unmatched_entries:
+            for entry in unmatched_entries:
+                cursor.execute(f"""
+                    INSERT INTO {self._table('gardes')} 
+                        (pharmacie_id, date_garde, nom_scrape, quarter_scrape, city_scrape)
+                    VALUES (NULL, %s, %s, %s, %s)
+                """, (
+                    garde_date,
+                    entry['nom'], entry.get('adresse', ''), entry.get('ville', '')
+                ))
+                inserted += cursor.rowcount
         
         conn.commit()
         cursor.close()
@@ -431,28 +459,39 @@ class AutoDailyScraper:
         
         # Step 3: Match with database
         print("\n[Step 3] Matching with database...")
-        matched_ids = []
-        unmatched = []
+        matched_entries = []  # dicts with pharmacie_id + scraped data
+        unmatched_entries = []  # dicts with scraped data only
+        seen_ids = set()  # Avoid duplicate pharmacie_ids
         
         for pharmacy in all_scraped:
             pharmacy_id = self.find_pharmacy_match(pharmacy['nom'], pharmacy['ville'])
             if pharmacy_id:
-                if pharmacy_id not in matched_ids:  # Avoid duplicates
-                    matched_ids.append(pharmacy_id)
+                if pharmacy_id not in seen_ids:  # Avoid duplicates
+                    seen_ids.add(pharmacy_id)
+                    matched_entries.append({
+                        'pharmacie_id': pharmacy_id,
+                        'nom': pharmacy['nom'],
+                        'adresse': pharmacy.get('adresse', ''),
+                        'ville': pharmacy.get('ville', '')
+                    })
             else:
-                unmatched.append(f"{pharmacy['nom']} ({pharmacy['ville']})")
+                unmatched_entries.append({
+                    'nom': pharmacy['nom'],
+                    'adresse': pharmacy.get('adresse', ''),
+                    'ville': pharmacy.get('ville', '')
+                })
         
-        print(f"  Matched: {len(matched_ids)}")
-        print(f"  Unmatched: {len(unmatched)}")
+        print(f"  Matched: {len(matched_entries)}")
+        print(f"  Unmatched: {len(unmatched_entries)}")
         
-        if unmatched and len(unmatched) <= 20:
+        if unmatched_entries and len(unmatched_entries) <= 20:
             print("\n  Unmatched pharmacies (not in database):")
-            for name in unmatched:
-                print(f"    - {name}")
+            for entry in unmatched_entries:
+                print(f"    - {entry['nom']} ({entry['ville']})")
         
         # Step 4: Insert gardes
         print("\n[Step 4] Inserting today's gardes...")
-        inserted = self.insert_gardes(matched_ids)
+        inserted = self.insert_gardes(matched_entries, unmatched_entries)
         print(f"  Inserted: {inserted} garde entries for {date.today()}")
         
         # Summary
