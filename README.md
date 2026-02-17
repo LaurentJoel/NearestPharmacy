@@ -71,19 +71,29 @@ curl "http://localhost:5000/api/pharmacies/nearby?lat=3.848&lon=11.502&distance_
 
 ```
 NearestPharmacy/
-├── app/                    # Flask application
-│   ├── __init__.py
-│   ├── config.py
-│   ├── database.py
-│   └── routes.py
-├── scripts/                # Data collection & setup
-│   ├── setup_db.sql
-│   ├── scrape_gardes.py
-│   └── import_osm_pharmacies.py
-├── data/                   # Data files
-├── flutter_test_app/       # Flutter test client
+├── app/                    # Flask backend (Blueprint module)
+│   ├── __init__.py         # Public API: init_pharmacy_module(), create_pharmacy_blueprint()
+│   ├── config.py           # PharmacyConfig with schema support
+│   ├── database.py         # DB pool & qualified_table() helper
+│   └── routes.py           # API endpoints (pharmacy_api blueprint)
+├── pharmacy_app/           # Flutter mobile frontend
+│   └── lib/
+│       ├── main.dart               # Standalone entry point
+│       ├── pharmacy_feature.dart   # Barrel export for parent app
+│       ├── models/pharmacy.dart    # Pharmacy data model
+│       ├── services/pharmacy_service.dart  # API client
+│       ├── screens/pharmacy_screen.dart    # Embeddable screen widget
+│       └── widgets/pharmacy_card.dart      # Reusable UI components
+├── scripts/                # Data collection & maintenance
+│   ├── setup_db.sql        # Schema-aware DB setup
+│   ├── auto_daily_scraper.py   # Daily duty schedule scraper
+│   ├── import_kml.py       # KML data importer
+│   ├── import_osm_pharmacies.py # OSM data importer
+│   └── cleanup_database.py # DB maintenance
+├── data/                   # Pharmacy data (JSON)
+├── integration_example.py  # Parent app integration reference
 ├── requirements.txt
-└── run.py
+└── run.py                  # Standalone server entry point
 ```
 
 ## License

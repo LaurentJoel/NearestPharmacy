@@ -29,3 +29,18 @@ Thumbs.db
 # Local config
 *.local
 local.properties
+
+# Archives (removed — use git history if needed)
+scripts/_archive/
+data/_archive/
+
+# Removed artifacts
+flutter_test_app/
+docs/
+response_.json
+
+# Data exports (keep JSON source, ignore KML)
+data/*.kml
+
+# Environment
+.env

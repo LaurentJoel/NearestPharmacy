@@ -6,12 +6,11 @@ This directory contains data files for the Nearest Pharmacy API.
 
 | File | Description |
 |------|-------------|
-| `osm_pharmacies_cameroon.json` | Pharmacies exported from OpenStreetMap |
-| `pharmacies_cameroon.kml` | (Optional) Google Earth Pro export |
+| `pharmacies_UPDATED.json` | Main pharmacy dataset (merged from all sources) |
 
 ## Data Sources
 
-### 1. OpenStreetMap (Recommended)
+### 1. OpenStreetMap
 Run the import script to fetch all pharmacies from OpenStreetMap:
 ```bash
 python scripts/import_osm_pharmacies.py
