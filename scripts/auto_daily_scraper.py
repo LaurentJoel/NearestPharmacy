@@ -10,7 +10,13 @@ This script:
 Schedule: Run daily at 8:00 AM (duty period is 8AM today to 8AM tomorrow)
 
 Usage:
-    python scripts/auto_daily_scraper.py
+    Standalone:
+        python scripts/auto_daily_scraper.py
+    
+    From parent app:
+        from scripts.auto_daily_scraper import AutoDailyScraper
+        scraper = AutoDailyScraper(db_connection=my_conn, schema='pharmacy')
+        scraper.run()
 
 For Windows Task Scheduler or cron job at 8:00 AM daily.
 """
@@ -87,17 +93,32 @@ class AutoDailyScraper:
         'sud-ouest': ['buea', 'kumba', 'likomba', 'limbe', 'mutengene', 'muyuka']
     }
     
-    def __init__(self):
+    def __init__(self, db_connection=None, db_config=None, schema='public'):
+        """
+        Initialize scraper.
+        
+        Args:
+            db_connection: An existing psycopg2 connection (from parent app). Optional.
+            db_config: Dict with keys: host, port, dbname, user, password. Optional.
+            schema: PostgreSQL schema for pharmacy tables (default: 'public').
+        """
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
-        self.db_conn = None
+        self.db_conn = db_connection
+        self._db_config = db_config
+        self.schema = schema
         self._pharmacy_cache = None  # Cache all pharmacies from DB
         
     def get_db_connection(self):
-        """Get database connection."""
-        if not self.db_conn or self.db_conn.closed:
+        """Get database connection. Uses external connection if provided."""
+        if self.db_conn and not self.db_conn.closed:
+            return self.db_conn
+        
+        if self._db_config:
+            self.db_conn = psycopg2.connect(**self._db_config)
+        else:
             self.db_conn = psycopg2.connect(
                 host=os.getenv('DB_HOST', 'localhost'),
                 port=os.getenv('DB_PORT', '5432'),
@@ -105,7 +126,18 @@ class AutoDailyScraper:
                 user=os.getenv('DB_USER', 'postgres'),
                 password=os.getenv('DB_PASSWORD', 'postgres')
             )
+        
+        # Set search_path for schema support
+        if self.schema != 'public':
+            cursor = self.db_conn.cursor()
+            cursor.execute(f"SET search_path TO {self.schema}, public")
+            cursor.close()
+        
         return self.db_conn
+    
+    def _table(self, name):
+        """Return schema-qualified table name."""
+        return f"{self.schema}.{name}"
     
     def load_pharmacy_cache(self):
         """Load all pharmacies from database for matching."""
@@ -114,7 +146,7 @@ class AutoDailyScraper:
         
         conn = self.get_db_connection()
         cursor = conn.cursor()
-        cursor.execute("SELECT id, nom, ville FROM pharmacies")
+        cursor.execute(f"SELECT id, nom, ville FROM {self._table('pharmacies')}")
         rows = cursor.fetchall()
         cursor.close()
         
@@ -294,7 +326,7 @@ class AutoDailyScraper:
         
         yesterday = date.today() - timedelta(days=1)
         
-        cursor.execute("DELETE FROM gardes WHERE date_garde <= %s", (yesterday,))
+        cursor.execute(f"DELETE FROM {self._table('gardes')} WHERE date_garde <= %s", (yesterday,))
         deleted = cursor.rowcount
         
         conn.commit()
@@ -313,8 +345,8 @@ class AutoDailyScraper:
         
         inserted = 0
         for pharmacy_id in matched_pharmacies:
-            cursor.execute("""
-                INSERT INTO gardes (pharmacie_id, date_garde)
+            cursor.execute(f"""
+                INSERT INTO {self._table('gardes')} (pharmacie_id, date_garde)
                 VALUES (%s, %s)
                 ON CONFLICT (pharmacie_id, date_garde) DO NOTHING
             """, (pharmacy_id, garde_date))
@@ -385,7 +417,7 @@ class AutoDailyScraper:
         # Summary
         conn = self.get_db_connection()
         cursor = conn.cursor()
-        cursor.execute("SELECT COUNT(*) FROM gardes WHERE date_garde = %s", (date.today(),))
+        cursor.execute(f"SELECT COUNT(*) FROM {self._table('gardes')} WHERE date_garde = %s", (date.today(),))
         total_today = cursor.fetchone()[0]
         cursor.close()
         

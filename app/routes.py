@@ -1,12 +1,14 @@
 """
 API Routes - Pharmacy Endpoints
+================================
+All SQL queries use schema-qualified table names for integration support.
 """
 from flask import Blueprint, request, jsonify
 from datetime import date
-from .database import get_db_cursor, test_connection
-from .config import Config
+from .database import get_db_cursor, test_connection, qualified_table
+from . import get_module_config
 
-api_bp = Blueprint('api', __name__)
+api_bp = Blueprint('pharmacy_api', __name__)
 
 
 @api_bp.route('/health', methods=['GET'])
@@ -58,11 +60,12 @@ def get_nearby_pharmacies():
             }), 400
         
         # Get optional parameters with defaults
-        distance_m = request.args.get('distance_m', type=int, default=Config.DEFAULT_SEARCH_RADIUS_M)
+        config = get_module_config()
+        distance_m = request.args.get('distance_m', type=int, default=config.DEFAULT_SEARCH_RADIUS_M)
         date_str = request.args.get('date', type=str, default=str(date.today()))
         
         # Limit maximum search radius
-        distance_m = min(distance_m, Config.MAX_SEARCH_RADIUS_M)
+        distance_m = min(distance_m, config.MAX_SEARCH_RADIUS_M)
         
         # PostGIS query to find nearby pharmacies on duty
         # This query:
@@ -102,9 +105,12 @@ def get_nearby_pharmacies():
         }
         
         # Step A: Find nearest in DB
-        city_inference_query = """
+        t_pharmacies = qualified_table('pharmacies')
+        t_gardes = qualified_table('gardes')
+        
+        city_inference_query = f"""
             SELECT ville, ST_Distance(geom::geography, ST_SetSRID(ST_MakePoint(%s, %s), 4326)::geography) as dist_m
-            FROM pharmacies 
+            FROM {t_pharmacies} 
             ORDER BY geom <-> ST_SetSRID(ST_MakePoint(%s, %s), 4326) 
             LIMIT 1
         """
@@ -140,7 +146,7 @@ def get_nearby_pharmacies():
         # PostGIS query to find nearby pharmacies on duty
         # Modified to include Unmatched pharmacies ONLY if they match inferred city
         
-        sql_query = """
+        sql_query = f"""
             WITH user_location AS (
                 SELECT ST_SetSRID(ST_MakePoint(%s, %s), 4326)::geography AS geom
             )
@@ -159,8 +165,8 @@ def get_nearby_pharmacies():
                     g.quarter_scrape,
                     'matched' as type
                 FROM 
-                    pharmacies p
-                    INNER JOIN gardes g ON p.id = g.pharmacie_id
+                    {t_pharmacies} p
+                    INNER JOIN {t_gardes} g ON p.id = g.pharmacie_id
                     CROSS JOIN user_location u
                 WHERE 
                     g.date_garde = %s
@@ -183,7 +189,7 @@ def get_nearby_pharmacies():
                     g.quarter_scrape,
                     'unmatched' as type
                 FROM 
-                    gardes g
+                    {t_gardes} g
                 WHERE 
                     g.date_garde = %s
                     AND g.pharmacie_id IS NULL
@@ -299,7 +305,8 @@ def search_nearby_pharmacies():
         
         # PostGIS query using geography type for accurate distance
         # ST_Distance with geography calculates geodesic distance (accounts for Earth's curvature)
-        sql_query = """
+        t_pharmacies = qualified_table('pharmacies')
+        sql_query = f"""
             SELECT 
                 p.id,
                 p.nom,
@@ -313,7 +320,7 @@ def search_nearby_pharmacies():
                     ST_SetSRID(ST_MakePoint(%s, %s), 4326)::geography
                 ) AS distance_m
             FROM 
-                pharmacies p
+                {t_pharmacies} p
             WHERE 
                 ST_DWithin(
                     p.geom::geography, 
@@ -376,21 +383,23 @@ def get_all_pharmacies():
         ville = request.args.get('ville', type=str)
         limit = request.args.get('limit', type=int, default=100)
         
+        t_pharmacies = qualified_table('pharmacies')
+        
         if ville:
-            sql_query = """
+            sql_query = f"""
                 SELECT id, nom, adresse, telephone, ville,
                        ST_Y(geom) AS latitude, ST_X(geom) AS longitude
-                FROM pharmacies
+                FROM {t_pharmacies}
                 WHERE LOWER(ville) = LOWER(%s)
                 ORDER BY nom
                 LIMIT %s;
             """
             params = (ville, limit)
         else:
-            sql_query = """
+            sql_query = f"""
                 SELECT id, nom, adresse, telephone, ville,
                        ST_Y(geom) AS latitude, ST_X(geom) AS longitude
-                FROM pharmacies
+                FROM {t_pharmacies}
                 ORDER BY ville, nom
                 LIMIT %s;
             """
@@ -415,11 +424,7 @@ def get_all_pharmacies():
         return jsonify({
             'success': True,
             'count': len(pharmacies),
-            'pharmacies': pharmacies,
-            'debug_info': {
-                'inferred_city': inferred_city,
-                'min_dist': min_dist
-            }
+            'pharmacies': pharmacies
         })
         
     except Exception as e:
@@ -442,26 +447,29 @@ def get_gardes():
         date_str = request.args.get('date', type=str, default=str(date.today()))
         ville = request.args.get('ville', type=str)
         
+        t_pharmacies = qualified_table('pharmacies')
+        t_gardes = qualified_table('gardes')
+        
         if ville:
-            sql_query = """
+            sql_query = f"""
                 SELECT 
                     p.id, p.nom, p.adresse, p.telephone, p.ville,
                     ST_Y(p.geom) AS latitude, ST_X(p.geom) AS longitude,
                     g.date_garde
-                FROM pharmacies p
-                INNER JOIN gardes g ON p.id = g.pharmacie_id
+                FROM {t_pharmacies} p
+                INNER JOIN {t_gardes} g ON p.id = g.pharmacie_id
                 WHERE g.date_garde = %s AND LOWER(p.ville) = LOWER(%s)
                 ORDER BY p.nom;
             """
             params = (date_str, ville)
         else:
-            sql_query = """
+            sql_query = f"""
                 SELECT 
                     p.id, p.nom, p.adresse, p.telephone, p.ville,
                     ST_Y(p.geom) AS latitude, ST_X(p.geom) AS longitude,
                     g.date_garde
-                FROM pharmacies p
-                INNER JOIN gardes g ON p.id = g.pharmacie_id
+                FROM {t_pharmacies} p
+                INNER JOIN {t_gardes} g ON p.id = g.pharmacie_id
                 WHERE g.date_garde = %s
                 ORDER BY p.ville, p.nom;
             """
