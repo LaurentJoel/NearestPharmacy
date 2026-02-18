@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 import 'screens/pharmacy_screen.dart';
 
 /// Standalone entry point for the Pharmacy app.
@@ -7,6 +8,9 @@ import 'screens/pharmacy_screen.dart';
 /// Integration example (in parent app):
 /// ```dart
 /// import 'package:pharmacy_app/pharmacy_feature.dart';
+///
+/// // Initialize Hive before using pharmacy feature:
+/// await Hive.initFlutter();
 ///
 /// // As a route:
 /// Navigator.push(context, MaterialPageRoute(
@@ -25,7 +29,12 @@ import 'screens/pharmacy_screen.dart';
 ///   initialPosition: alreadyFetchedPosition,
 /// )
 /// ```
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  // Initialize Hive for local caching (offline support)
+  await Hive.initFlutter();
+
   runApp(const PharmacyApp());
 }
 

@@ -75,7 +75,7 @@ def init_pharmacy_module(config=None, db_config=None, schema='public'):
     return _module_config
 
 
-def create_pharmacy_blueprint(db_config=None, schema='public', url_prefix=None):
+def create_pharmacy_blueprint(db_config=None, schema='public', url_prefix=None, redis_url=None):
     """
     Create and return the pharmacy Flask Blueprint, ready to register on any Flask app.
 
@@ -83,6 +83,7 @@ def create_pharmacy_blueprint(db_config=None, schema='public', url_prefix=None):
         db_config: Optional dict with DB connection params (host, port, database, user, password).
         schema: PostgreSQL schema for pharmacy tables (default: 'public').
         url_prefix: URL prefix for the blueprint routes (can also be set at register time).
+        redis_url: Optional Redis URL for caching (default: redis://localhost:6379/0).
 
     Returns:
         flask.Blueprint: The configured pharmacy API blueprint.
@@ -90,9 +91,16 @@ def create_pharmacy_blueprint(db_config=None, schema='public', url_prefix=None):
     Usage in parent app:
         bp = create_pharmacy_blueprint(db_config={...}, schema='pharmacy')
         app.register_blueprint(bp, url_prefix='/pharmacy/api')
+        
+        # After registering, init cache in parent app:
+        from app.cache import init_cache
+        init_cache(parent_app, redis_url='redis://localhost:6379/1')
     """
     # Initialize module config
-    init_pharmacy_module(db_config=db_config, schema=schema)
+    config = init_pharmacy_module(db_config=db_config, schema=schema)
+    
+    if redis_url:
+        config.REDIS_URL = redis_url
 
     # Import routes (this creates the blueprint)
     from .routes import api_bp
@@ -181,6 +189,10 @@ def create_app(config=None):
 
     resolved_config = init_pharmacy_module(config=config, schema='public')
     app.config.from_object(resolved_config)
+
+    # Initialize Redis cache
+    from .cache import init_cache
+    init_cache(app, redis_url=resolved_config.REDIS_URL)
 
     # Register pharmacy blueprint
     from .routes import api_bp

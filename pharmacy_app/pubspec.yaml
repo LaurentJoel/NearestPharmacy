@@ -43,6 +43,11 @@ dependencies:
   
   # URL launcher for maps and phone calls
   url_launcher: ^6.2.5
+  
+  # Local caching for offline support
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.0
 
 dev_dependencies:
   flutter_test:

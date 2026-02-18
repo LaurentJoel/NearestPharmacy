@@ -871,10 +871,31 @@ class AutoDailyScraper:
         print("\n" + "=" * 60)
         print(f"SUMMARY: {total_today} pharmacies on duty today")
         print("=" * 60)
+        
+        # Invalidate Redis cache after scraper updates data
+        self._clear_cache()
+        
         print(f"\nAPI endpoint now returns duty pharmacies:")
         print(f"  /api/pharmacies/nearby?lat=3.848&lon=11.502&radius=5000")
         
         return total_today
+    
+    def _clear_cache(self):
+        """Clear Redis cache after scraper updates data."""
+        try:
+            import redis as redis_lib
+            redis_url = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
+            r = redis_lib.from_url(redis_url)
+            # Delete all keys with the pharmacy: prefix
+            keys = r.keys('pharmacy:*')
+            if keys:
+                r.delete(*keys)
+                print(f"\n[Cache] Cleared {len(keys)} cached entries from Redis")
+            else:
+                print("\n[Cache] No cached entries to clear")
+        except Exception as e:
+            print(f"\n[Cache] Warning: could not clear Redis cache: {e}")
+            print("  (This is OK — cache entries will expire via TTL)")
 
 
 def main():

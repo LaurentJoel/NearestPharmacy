@@ -24,6 +24,13 @@ class PharmacyConfig:
     # Schema for table isolation (parent app can set to 'pharmacy' or custom)
     DB_SCHEMA = os.getenv('DB_SCHEMA', 'public')
     
+    # Redis cache configuration
+    REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
+    CACHE_TTL_NEARBY = int(os.getenv('CACHE_TTL_NEARBY', 300))       # 5 min for nearby queries
+    CACHE_TTL_SEARCH = int(os.getenv('CACHE_TTL_SEARCH', 600))       # 10 min for search queries
+    CACHE_TTL_GARDES = int(os.getenv('CACHE_TTL_GARDES', 1800))      # 30 min for gardes list
+    CACHE_TTL_PHARMACIES = int(os.getenv('CACHE_TTL_PHARMACIES', 3600))  # 1 hour for full list
+    
     # API configuration
     DEFAULT_SEARCH_RADIUS_M = int(os.getenv('DEFAULT_SEARCH_RADIUS_M', 5000))
     MAX_SEARCH_RADIUS_M = int(os.getenv('MAX_SEARCH_RADIUS_M', 50000))

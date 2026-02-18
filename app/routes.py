@@ -7,6 +7,7 @@ from flask import Blueprint, request, jsonify
 from datetime import date
 import unicodedata
 from .database import get_db_cursor, test_connection, qualified_table
+from .cache import cache, make_cache_key_nearby, make_cache_key_search
 from . import get_module_config
 
 
@@ -23,12 +24,21 @@ api_bp = Blueprint('pharmacy_api', __name__)
 
 
 @api_bp.route('/health', methods=['GET'])
+@cache.cached(timeout=30, key_prefix='health')
 def health_check():
     """Check API and database health."""
     db_status = test_connection()
+    
+    # Detect cache type
+    try:
+        cache_type = 'redis' if cache.cache.__class__.__name__ == 'RedisCache' else 'simple'
+    except Exception:
+        cache_type = 'unknown'
+    
     return jsonify({
         'api': 'ok',
-        'database': db_status
+        'database': db_status,
+        'cache': cache_type
     })
 
 
@@ -77,6 +87,13 @@ def get_nearby_pharmacies():
         
         # Limit maximum search radius
         distance_m = min(distance_m, config.MAX_SEARCH_RADIUS_M)
+        
+        # Check cache first (rounds coords to ~100m precision for cache sharing)
+        cache_key = make_cache_key_nearby(user_lat, user_lon, distance_m, date_str)
+        cached_result = cache.get(cache_key)
+        if cached_result is not None:
+            cached_result['cached'] = True
+            return jsonify(cached_result)
         
         # PostGIS query to find nearby pharmacies on duty
         # This query:
@@ -303,7 +320,7 @@ def get_nearby_pharmacies():
                     'quarter_scrape': row['quarter_scrape']
                 })
         
-        return jsonify({
+        result = {
             'success': True,
             'count': len(pharmacies),
             'search_params': {
@@ -313,7 +330,12 @@ def get_nearby_pharmacies():
                 'date': date_str
             },
             'pharmacies': pharmacies
-        })
+        }
+        
+        # Store in cache
+        cache.set(cache_key, result, timeout=config.CACHE_TTL_NEARBY)
+        
+        return jsonify(result)
         
     except Exception as e:
         return jsonify({
@@ -371,6 +393,15 @@ def search_nearby_pharmacies():
         radius_m = min(radius_m, 50000)
         limit = min(limit, 200)
         
+        # Check cache first
+        cache_key = make_cache_key_search(user_lat, user_lon, radius_m, limit)
+        cached_result = cache.get(cache_key)
+        if cached_result is not None:
+            cached_result['cached'] = True
+            return jsonify(cached_result)
+        
+        config = get_module_config()
+        
         # PostGIS query using geography type for accurate distance
         # ST_Distance with geography calculates geodesic distance (accounts for Earth's curvature)
         t_pharmacies = qualified_table('pharmacies')
@@ -418,7 +449,7 @@ def search_nearby_pharmacies():
                     'distance_km': round(row['distance_m'] / 1000, 2)
                 })
         
-        return jsonify({
+        result = {
             'success': True,
             'count': len(pharmacies),
             'algorithm': 'PostGIS ST_Distance (geodesic/spheroid)',
@@ -429,7 +460,12 @@ def search_nearby_pharmacies():
                 'limit': limit
             },
             'pharmacies': pharmacies
-        })
+        }
+        
+        # Store in cache
+        cache.set(cache_key, result, timeout=config.CACHE_TTL_SEARCH)
+        
+        return jsonify(result)
         
     except Exception as e:
         return jsonify({
@@ -450,6 +486,15 @@ def get_all_pharmacies():
     try:
         ville = request.args.get('ville', type=str)
         limit = request.args.get('limit', type=int, default=100)
+        
+        # Check cache
+        cache_key = f"pharmacies:{(ville or 'all').lower()}:{limit}"
+        cached_result = cache.get(cache_key)
+        if cached_result is not None:
+            cached_result['cached'] = True
+            return jsonify(cached_result)
+        
+        config = get_module_config()
         
         t_pharmacies = qualified_table('pharmacies')
         
@@ -489,11 +534,16 @@ def get_all_pharmacies():
                     'longitude': row['longitude']
                 })
         
-        return jsonify({
+        result = {
             'success': True,
             'count': len(pharmacies),
             'pharmacies': pharmacies
-        })
+        }
+        
+        # Store in cache (1 hour for pharmacy list)
+        cache.set(cache_key, result, timeout=config.CACHE_TTL_PHARMACIES)
+        
+        return jsonify(result)
         
     except Exception as e:
         return jsonify({
@@ -514,6 +564,15 @@ def get_gardes():
     try:
         date_str = request.args.get('date', type=str, default=str(date.today()))
         ville = request.args.get('ville', type=str)
+        
+        # Check cache
+        cache_key = f"gardes:{date_str}:{(ville or 'all').lower()}"
+        cached_result = cache.get(cache_key)
+        if cached_result is not None:
+            cached_result['cached'] = True
+            return jsonify(cached_result)
+        
+        config = get_module_config()
         
         t_pharmacies = qualified_table('pharmacies')
         t_gardes = qualified_table('gardes')
@@ -560,12 +619,17 @@ def get_gardes():
                     'date_garde': str(row['date_garde'])
                 })
         
-        return jsonify({
+        result = {
             'success': True,
             'date': date_str,
             'count': len(pharmacies),
             'pharmacies': pharmacies
-        })
+        }
+        
+        # Store in cache (30 min for gardes)
+        cache.set(cache_key, result, timeout=config.CACHE_TTL_GARDES)
+        
+        return jsonify(result)
         
     except Exception as e:
         return jsonify({
