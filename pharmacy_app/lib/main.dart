@@ -65,8 +65,10 @@ class PharmacyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       home: Scaffold(
         body: const PharmacyScreen(
-          // TODO: Change this to your server's address
-          apiBaseUrl: 'http://10.0.2.2:5000/api', // Android emulator
+          // Uses ADB reverse port forwarding (adb reverse tcp:5000 tcp:5000)
+          // This is more reliable than 10.0.2.2 which can break after emulator sleep
+          apiBaseUrl:
+              'http://localhost:5000/api', // Android emulator via ADB reverse
           // For real phone: 'http://YOUR_COMPUTER_IP:5000/api'
         ),
         floatingActionButton: Builder(
